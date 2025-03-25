@@ -5,7 +5,7 @@ on:
     branches:
       - main
   discussion:
-      - types: [created, edited, answered]
+      types: [created, edited, answered]
 
 jobs:
   build:
