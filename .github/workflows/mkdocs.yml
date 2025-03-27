@@ -1,4 +1,4 @@
-name: mkdocs-deploy
+name: 自动化构建部署 MkDocs-Material 站点
 
 on:
   push:
@@ -10,7 +10,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    permissions:                # Job-level permissions configuration starts here
+      contents: write           # 'write' access to repository contents
+      pull-requests: write      # 'write' access to pull requests
     steps:
       - name: 检查分支
         uses: actions/checkout@v4
