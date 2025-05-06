@@ -7,7 +7,7 @@ date: 2025-04-30
 authors: [shenweiyan]
 categories: 
   - 语雀
-labels: []
+labels: ['语雀随笔']
 ---
 
 语雀用了这么多年，有太多太多的东西保存在语雀了，这两天一直都在思考 All in Yuque 的这个问题。
