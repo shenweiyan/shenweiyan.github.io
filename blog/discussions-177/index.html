@@ -2383,7 +2383,7 @@ var _hmt = _hmt || [];
   <h1>我的博客图床新方案 R2-Explorer</h1>
 
 <p><a href="https://shenwy.com/">博客站点</a> 图床的问题，<a href="https://shenwy.com/blog/discussions-62/">纠结了很久</a>，也一度以为很难会找到一个自己满意的 Pages 工具。但幸运的是，2025 年 12 月时候看到了 <a href="https://github.com/G4brym/R2-Explorer">R2-Explorer</a> 这个基于 Worker 的 Cloudflare R2 存储管理工具，部署完成后一番体验下来，发现这就是我一直要找的图床。</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://gi.weiyan.tech/2026/02/r2-explorer-live-demo.png" data-desc-position="bottom"><img alt="r2-explorer-live-demo" src="https://gi.weiyan.tech/2026/02/r2-explorer-live-demo.png"></a></p>
+<p></p>
 <!-- more -->
 
 <h2 id="在线访问">在线访问<a class="headerlink" href="#在线访问" title="Permanent link">¶</a></h2>
@@ -2391,7 +2391,7 @@ var _hmt = _hmt || [];
 <h2 id="身份验证">身份验证<a class="headerlink" href="#身份验证" title="Permanent link">¶</a></h2>
 <p>其次，它提供了基本的身份验证支持，可以通过配置 GitHub Secrets and variables 实现用户名、密码登录。</p>
 <p><code>R2EXPLORER_CONFIG =&gt; { readonly: false, basicAuth: { username: 'shenwy', password: '123456' }, }</code></p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://gi.weiyan.tech/2026/02/r2-explorer-sign-in.png" data-desc-position="bottom"><img alt=" r2-explorer-sign-in" src="https://gi.weiyan.tech/2026/02/r2-explorer-sign-in.png"></a></p>
+<p></p>
 <h2 id="文件管理">文件管理<a class="headerlink" href="#文件管理" title="Permanent link">¶</a></h2>
 <p>支持的文件管理包括：
 - 拖放式文件上传
@@ -2400,17 +2400,17 @@ var _hmt = _hmt || [];
 - 右键单击上下文菜单可查看高级选项
 - HTTP/自定义元数据编辑
 - <strong>可共享链接</strong> - 创建安全的公开文件 URL，可选择设置密码保护、过期时间和下载次数限制</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://gi.weiyan.tech/2026/02/r2-explorer-manage.png" data-desc-position="bottom"><img alt="r2-explorer-manage" src="https://gi.weiyan.tech/2026/02/r2-explorer-manage.png"></a></p>
+<p></p>
 <p><a href="https://github.com/G4brym/R2-Explorer/issues/51">复制图片的直接链接</a> 的功能现在也已经支持，如果你在这个功能的配置中遇到了问题，可以参考<a href="https://github.com/G4brym/R2-Explorer/issues/120">这里</a>。</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://gi.weiyan.tech/2026/02/r2-explorer-copy-public-url.png" data-desc-position="bottom"><img alt="r2-explorer-copy-public-url" src="https://gi.weiyan.tech/2026/02/r2-explorer-copy-public-url.png"></a></p>
+<p></p>
 <h2 id="文件处理">文件处理<a class="headerlink" href="#文件处理" title="Permanent link">¶</a></h2>
 <p>支持 PDF 文档、图片、文本文件、Markdown、CSV 等，浏览器内文件预览。</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://gi.weiyan.tech/2026/02/r2-explorer-pdf-preview.png" data-desc-position="bottom"><img alt="r2-explorer-pdf-preview" src="https://gi.weiyan.tech/2026/02/r2-explorer-pdf-preview.png"></a></p>
+<p></p>
 <h2 id="部署与构建">部署与构建<a class="headerlink" href="#部署与构建" title="Permanent link">¶</a></h2>
 <p>虽然 <a href="https://r2explorer.com/getting-started/creating-a-new-project">官方文档</a> 有很详细的部署和配置说明，但有一些细节并未给出。</p>
 <h3 id="cloudflare-api-token">Cloudflare API Token<a class="headerlink" href="#cloudflare-api-token" title="Permanent link">¶</a></h3>
 <p>进入 <a href="https://dash.cloudflare.com/profile/api-tokens">https://dash.cloudflare.com/profile/api-tokens</a> 申请 Cloudflare API Token，对应权限如下：
-<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://gi.weiyan.tech/2026/02/r2-explorer-api-token.png" data-desc-position="bottom"><img alt="r2-explorer-api" src="https://gi.weiyan.tech/2026/02/r2-explorer-api-token.png"></a></p>
+</p>
 <h3 id="github-secrets-and-variables">GitHub Secrets and variables<a class="headerlink" href="#github-secrets-and-variables" title="Permanent link">¶</a></h3>
 <ol>
 <li>

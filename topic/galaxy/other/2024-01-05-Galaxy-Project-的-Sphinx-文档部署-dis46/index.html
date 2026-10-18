@@ -2440,7 +2440,7 @@ The generated documentation will be in <code>doc/build/html/</code> and can be v
 </code></pre></div><p></p>
 <h2 id="2-修改配置">2. 修改配置<a class="headerlink" href="#2-修改配置" title="Permanent link">¶</a></h2>
 <p>由于 <code>sphinx-build</code> 会读取 <code>source/conf.py</code> 并执行，但这个文件调用了 <a href="https://github.com/galaxyproject/galaxy/blob/dev/lib/galaxy/version.py"><code>galaxy.version</code></a> 模块：
-<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://gi.weiyan.tech/2024/01/no-galaxy-version.png" data-desc-position="bottom"><img alt="No module named 'galaxy'" src="https://gi.weiyan.tech/2024/01/no-galaxy-version.png"></a></p>
+</p>
 <p>所以，如果我们想要把 <code>galaxy/doc</code> 和 Galaxy 独立开来进行部署，就需要修改一下 <code>source/conf.py</code>：
 </p><div class="highlight"><pre><span></span><code><span class="c1"># The short X.Y version.</span>
 <span class="c1">#from galaxy.version import (</span>
