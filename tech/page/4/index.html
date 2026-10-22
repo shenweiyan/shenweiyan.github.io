@@ -69,17 +69,17 @@
     
       <link rel="stylesheet" href="../../../assets/document_dates/fonts/material-icons.css">
     
-      <link rel="stylesheet" href="../../../assets/document_dates/tippy/scale.css">
-    
       <link rel="stylesheet" href="../../../assets/document_dates/tippy/shift-away.css">
-    
-      <link rel="stylesheet" href="../../../assets/document_dates/tippy/material.css">
     
       <link rel="stylesheet" href="../../../assets/document_dates/tippy/light.css">
     
-      <link rel="stylesheet" href="../../../assets/document_dates/tippy/tippy.css">
-    
       <link rel="stylesheet" href="../../../assets/document_dates/tippy/backdrop.css">
+    
+      <link rel="stylesheet" href="../../../assets/document_dates/tippy/scale.css">
+    
+      <link rel="stylesheet" href="../../../assets/document_dates/tippy/material.css">
+    
+      <link rel="stylesheet" href="../../../assets/document_dates/tippy/tippy.css">
     
       <link rel="stylesheet" href="../../../assets/document_dates/core/core.css">
     
@@ -2188,6 +2188,116 @@ var _hmt = _hmt || [];
     <div class="md-post__meta md-meta">
       <ul class="md-meta__list">
         <li class="md-meta__item">
+          <time datetime="2023-12-26 00:00:00+00:00">2023年12月26日</time></li>
+        
+          <li class="md-meta__item">
+            分类于
+            
+              <a href="../../category/%E7%BC%96%E7%A8%8B/" class="md-meta__link">编程</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              需要 2 分钟阅读时间
+            
+          </li>
+        
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="pandas-处理-excel-常用方法技巧"><a class="toclink" href="../../discussions-40/">Pandas 处理 Excel 常用方法技巧</a></h2>
+<p>在使用 Pandas 前需要学习了解一下 Series 和 DataFrame 的基本数据结构和索引的相关概念，之后就可以练习基本的 Excel操作。Pandas 读取一个 Excel 文件后会将其转化为 DataFrame 对象，每一列或行就是一个 Series 对象。这里我们看下如何对一个 excel 进行读写，以及 Sheet、行列、表头处理的一些常用技巧。</p>
+<h3 id="读取-excel"><a class="toclink" href="../../discussions-40/#读取-excel">读取 Excel</a></h3>
+<p>如果您想读取 Excel 表格中的数据，可以使用 <code>read_excel()</code> 方法，其语法格式如下：</p>
+<div class="highlight"><pre><span></span><code>pd.read_excel(io, sheet_name=0, header=0, names=None, index_col=None,
+              usecols=None, squeeze=False,dtype=None, engine=None,
+              converters=None, true_values=None, false_values=None,
+              skiprows=None, nrows=None, na_values=None, parse_dates=False,
+              date_parser=None, thousands=None, comment=None, skipfooter=0,
+              convert_float=True, **kwds)
+</code></pre></div>
+
+    
+      <nav class="md-post__action">
+        <a href="../../discussions-40/">
+          继续阅读
+        </a>
+      </nav>
+    
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://gi.weiyan.tech/0000/logo/logo.webp" alt="Steven Shum">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2023-12-01 00:00:00+00:00">2023年12月1日</time></li>
+        
+          <li class="md-meta__item">
+            分类于
+            
+              <a href="../../category/%E7%BC%96%E7%A8%8B/" class="md-meta__link">编程</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              需要 1 分钟阅读时间
+            
+          </li>
+        
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="单行-python-代码片段"><a class="toclink" href="../../discussions-30/">单行 Python 代码片段</a></h2>
+<blockquote>
+<p>Via：https://muhammadraza.me/2023/python-oneliners</p>
+</blockquote>
+<p>我已经沉浸在 Python 编程世界大约三年了。在这段时间里，我开始欣赏这种多功能语言的优雅和强大。在这篇既有趣又具有教育意义的文章中，我将展示一系列单行 Python 代码片段。无论您是经验丰富的开发人员还是初学者，这些简洁的代码行都可以让您深入了解 Python 的简单性和有效性，它们展示一行代码如何完成在其他语言中可能需要几行代码才能完成的任务。</p>
+
+    
+      <nav class="md-post__action">
+        <a href="../../discussions-30/">
+          继续阅读
+        </a>
+      </nav>
+    
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://gi.weiyan.tech/0000/logo/logo.webp" alt="Steven Shum">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
           <time datetime="2023-12-01 00:00:00+00:00">2023年12月1日</time></li>
         
           <li class="md-meta__item">
@@ -2617,64 +2727,6 @@ _tkinter<span class="w"> </span>
   </div>
 </article>
       
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://gi.weiyan.tech/0000/logo/logo.webp" alt="Steven Shum">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2023-10-23 00:00:00+00:00">2023年10月23日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
-            
-              <a href="../../category/%E8%BD%AF%E4%BB%B6/" class="md-meta__link">软件</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              需要 3 分钟阅读时间
-            
-          </li>
-        
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="在-linux-上给用户赋予指定目录的读写权限"><a class="toclink" href="../../discussions-9/">在 Linux 上给用户赋予指定目录的读写权限</a></h2>
-<p>在 Linux 上指定目录的读写权限赋予用户，有两种方法可以实现这个目标：第一种是使用 ACL (访问控制列表)，第二种是创建用户组来管理文件权限，下面会一一介绍。为了完成这个教程，我们将使用以下设置：</p>
-<ul>
-<li>操作系统：CentOS 7</li>
-<li>测试目录：/data/share</li>
-<li>测试用户：shenweiyan</li>
-<li>文件系统类型：ext4</li>
-</ul>
-<p>请确认所有的命令都是使用 root 用户执行的，或者使用 sudo 命令来享受与之同样的权限。让我们开始吧！下面，先使用 mkdir 命令来创建一个名为 share 的目录。</p>
-<div class="highlight"><pre><span></span><code>$<span class="w"> </span>mkdir<span class="w"> </span>-p<span class="w"> </span>/data/share
-</code></pre></div>
-
-    
-      <nav class="md-post__action">
-        <a href="../../discussions-9/">
-          继续阅读
-        </a>
-      </nav>
-    
-    
-  </div>
-</article>
-      
       
         
           
@@ -2682,7 +2734,7 @@ _tkinter<span class="w"> </span>
 
 
 <nav class="md-pagination">
-  <a class="md-pagination__link" href="../../">1</a> <a class="md-pagination__link" href="../2/">2</a> <a class="md-pagination__link" href="../3/">3</a> <span class="md-pagination__current">4</span>
+  <a class="md-pagination__link" href="../../">1</a> <a class="md-pagination__link" href="../2/">2</a> <a class="md-pagination__link" href="../3/">3</a> <span class="md-pagination__current">4</span> <a class="md-pagination__link" href="../5/">5</a>
 </nav>
         
       

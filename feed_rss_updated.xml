@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Wed, 21 Oct 2026 14:53:25 -0000</pubDate>
-    <lastBuildDate>Wed, 21 Oct 2026 14:53:25 -0000</lastBuildDate>
+    <pubDate>Thu, 22 Oct 2026 14:53:55 -0000</pubDate>
+    <lastBuildDate>Thu, 22 Oct 2026 14:53:55 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -30,6 +30,49 @@
     
 
     
+    
+    <item>
+      <title>我的第二大脑 AtomGit</title>
+      
+      
+        
+      <author>Steven Shum</author>
+        
+      
+      
+      
+      <description>&lt;p&gt;我其实在 2023 年 12 月很早就注册了 gitcode 的账号，那时候 GitCode 和 ATomGit 还是两个互不相通的独立平台。&lt;/p&gt;
+&lt;p&gt;之所以关注和使用 GitCode，主要原因在于它同时集成了 Issues 和 Discussions，这应该是国内第一个也只截止目前为止唯一一个同时集成这两大功能的开源平台。第二个原因，是对 gitee 半死不活和 Issues 不支持全文搜索（虽然现在已经支持）的死心，以及对极狐高昂付费的退缩，虽然后面腾讯又出了一个 CNB 但仅支持微信扫码，不支持账密登录又成功把我劝退。&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;h2 id=&#34;github-模式&#34;&gt;GitHub 模式&lt;a class=&#34;headerlink&#34; href=&#34;#github-模式&#34; title=&#34;Permanent link&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;我一直在用 GitHub 的 Discussions 来记录个人的博客，很大的一个原因在于它与 Giscus 评论系统的无缝衔接，加上 GitHub Actions 能 DIY 很多事情，这种模式很适合自己。与此同时，还能把 GitHub 私有仓库的 Issues 当做记事本来用。Issues+Discussions 的这两条路成功把自己从语雀的依赖中释放了出来，变成了 All in GitHub 的一个新依赖，加上 github api 的加成，数据导出更加触手可及，自己的数据自己可控还能 DIY 自己的 Pages 站点。&lt;/p&gt;
+&lt;p&gt;GitHub 虽爽，但网络终究是个问题，于是想着用 GitCode 平替。&lt;/p&gt;
+&lt;h2 id=&#34;gitcode-方案&#34;&gt;GitCode 方案&lt;a class=&#34;headerlink&#34; href=&#34;#gitcode-方案&#34; title=&#34;Permanent link&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;使用 GitCode 的这些时间，提了不少被采纳的建议，看着日益完善的功能，多少有些感慨。&lt;/p&gt;
+&lt;p&gt;尤其是，今天看到 &amp;ldquo;&lt;a href=&#34;https://gitcode.com/hust-open-atom-club/atomgit-cli/issues/167&#34;&gt;feat: 支持组织 Discussion 及评论写入&lt;/a&gt;&amp;rdquo; 这个 issues，再去 OpenAPI 一看，&lt;a href=&#34;https://docs.gitcode.com/docs/apis/post-api-v-5-repos-owner-repo-discuss&#34;&gt;Discussions API&lt;/a&gt; 居然开始支持了 —— &lt;a href=&#34;https://gitcode.com/GitCode/GitCode-Docs/issues/38&#34;&gt;等了好久&lt;/a&gt;的功能千呼万唤始出来的心情，的确有点小激动。&lt;/p&gt;
+&lt;h2 id=&#34;未来的路&#34;&gt;未来的路&lt;a class=&#34;headerlink&#34; href=&#34;#未来的路&#34; title=&#34;Permanent link&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;很多人对于 GitCode 曾经甚至现在的一些策略意见很多，也包括我自己，也有对 CSDN 系的担忧，但个人认为它目前至少是比 gitee 更加值得期待的，对于我个人而言，我对它的 &lt;a href=&#34;https://news.gitcode.com/news/e1ce0addc8ce3deec8b49115112f05eb&#34;&gt;APP&lt;/a&gt; 有期待，它的 Notebook 和 AtomCode 我用也还不错。&lt;/p&gt;
+&lt;script src=&#34;https://giscus.app/client.js&#34;
+    data-repo=&#34;shenweiyan/Digital-Garden&#34;
+    data-repo-id=&#34;R_kgDOKgxWlg&#34;
+    data-mapping=&#34;number&#34;
+    data-term=&#34;198&#34;
+    data-reactions-enabled=&#34;1&#34;
+    data-emit-metadata=&#34;0&#34;
+    data-input-position=&#34;bottom&#34;
+    data-theme=&#34;light&#34;
+    data-lang=&#34;zh-CN&#34;
+    crossorigin=&#34;anonymous&#34;
+    async&gt;
+&lt;/script&gt;</description>
+      <link>https://shenwy.com/blog/discussions-198/</link>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <source url="https://shenwy.com/feed_rss_updated.xml">维燕的数字花园</source>
+      
+      <guid isPermaLink="true">https://shenwy.com/blog/discussions-198/</guid>
+      
+    </item>
     
     <item>
       <title>爬广州增城第一峰有感</title>
@@ -446,11 +489,11 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;atomcode
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://shenwy.com/blog/discussions-190/</link>
+      <link>https://shenwy.com/tech/discussions-190/</link>
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
       <source url="https://shenwy.com/feed_rss_updated.xml">维燕的数字花园</source>
       
-      <guid isPermaLink="true">https://shenwy.com/blog/discussions-190/</guid>
+      <guid isPermaLink="true">https://shenwy.com/tech/discussions-190/</guid>
       
     </item>
     
@@ -490,11 +533,11 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;atomcode
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://shenwy.com/blog/discussions-189/</link>
+      <link>https://shenwy.com/tech/discussions-189/</link>
       <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
       <source url="https://shenwy.com/feed_rss_updated.xml">维燕的数字花园</source>
       
-      <guid isPermaLink="true">https://shenwy.com/blog/discussions-189/</guid>
+      <guid isPermaLink="true">https://shenwy.com/tech/discussions-189/</guid>
       
     </item>
     
