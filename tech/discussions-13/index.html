@@ -2882,7 +2882,7 @@ LibreSSL<span class="w"> </span><span class="m">2</span>.6.4<span class="w"> </s
 <ul>
 <li><code>make</code>&nbsp;过程如果出现 <code>ModuleNotFoundError: No module named '_ctypes'</code>&nbsp;或者 <code>INFO: Could not locate ffi libs and/or headers</code>&nbsp;参考：<a href="https://groups.google.com/forum/#!topic/comp.lang.python/npv-wzmytzo">https://groups.google.com/forum/#!topic/comp.lang.python/npv-wzmytzo</a></li>
 </ul>
-<p></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://shub.weiyan.tech/yuque/elog-cookbook-img/FmK7bCeEeGjfbl1UVdvHyw3Jg8Zj.png" data-desc-position="bottom"><img alt="image.png" src="https://shub.weiyan.tech/yuque/elog-cookbook-img/FmK7bCeEeGjfbl1UVdvHyw3Jg8Zj.png"></a></p>
 <ul>
 <li>对于低版本的 Python 如果指定&nbsp;<code>--with-openssl=DIR</code>&nbsp;依然无法解决 ssl 模块的问题，可以参考修改 Modules/Setup.dist 文件（默认这块是注释的，放开注释即可。这块功能是开启 SSL 模块，不然会出现安装完毕后，提示找不到 ssl 模块的错误）再执行 configure，修改内容如下：</li>
 </ul>
@@ -2935,7 +2935,7 @@ cp<span class="w"> </span>libbz2.so.1.0.6<span class="w"> </span>/usr/local/soft
 <li>bzip2 的官网 &nbsp;<a href="http://www.bzip.org/">http://www.bzip.org/</a>&nbsp; 已经把 bzip2 的源码下载链接放到了 &nbsp;SourceForge，网络上一些从 &nbsp;<a href="http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz">http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz</a>&nbsp; 下载的做法已经失效。</li>
 <li><a href="https://sourceforge.net/projects/bzip2/files/">SourceForge</a> 上 bzip2 的最新版本还是 1.0.6（Last modified 2018-11-3），更高级版本的 bzip2 我也不知道是否存在，也不知道能不能用。</li>
 </ul>
-<p></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://shub.weiyan.tech/yuque/elog-cookbook-img/FvgxGWlVJSxOCvgXFo9BPOa3ODm5.png" data-desc-position="bottom"><img alt="image.png" src="https://shub.weiyan.tech/yuque/elog-cookbook-img/FvgxGWlVJSxOCvgXFo9BPOa3ODm5.png"></a></p>
 <p><strong>编译安装 Python-3.6.9：</strong></p>
 <div class="highlight"><pre><span></span><code>$<span class="w"> </span>wget<span class="w"> </span>https://www.python.org/ftp/python/3.6.9/Python-3.6.9.tgz
 $<span class="w"> </span>tar<span class="w"> </span>zvxf<span class="w"> </span>Python-3.6.9.tgz
