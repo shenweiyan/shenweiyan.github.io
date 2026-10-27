@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Tue, 27 Oct 2026 01:35:48 -0000</pubDate>
-    <lastBuildDate>Tue, 27 Oct 2026 01:35:48 -0000</lastBuildDate>
+    <pubDate>Tue, 27 Oct 2026 01:44:23 -0000</pubDate>
+    <lastBuildDate>Tue, 27 Oct 2026 01:44:23 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -3433,7 +3433,7 @@ ImportError:&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;libpython3.6m.so.1.0:&lt
       
       
       
-      <description>&lt;div class=&#39;document-dates-plugin-wrapper document-dates-top&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-03-19&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-03-19T00:00:00+00:00&#39;&gt;2025-03-19&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-10-27&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-10-27T01:34:42+00:00&#39;&gt;2026-10-27&lt;/time&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+      <description>&lt;div class=&#39;document-dates-plugin-wrapper document-dates-top&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2025-03-19&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2025-03-19T00:00:00+00:00&#39;&gt;2025-03-19&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-10-27&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-10-27T01:43:36+00:00&#39;&gt;2026-10-27&lt;/time&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;!--Catories:3.1.x-GalaxyOther--&gt;
 
 &lt;blockquote&gt;
@@ -4257,7 +4257,7 @@ patch_directory = qhull-8.0.2
       
       
       
-      <description>&lt;div class=&#39;document-dates-plugin-wrapper document-dates-top&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2024-10-18&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2024-10-18T00:00:00+00:00&#39;&gt;2024-10-18&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-10-27&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-10-27T01:34:42+00:00&#39;&gt;2026-10-27&lt;/time&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+      <description>&lt;div class=&#39;document-dates-plugin-wrapper document-dates-top&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2024-10-18&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2024-10-18T00:00:00+00:00&#39;&gt;2024-10-18&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-10-27&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-10-27T01:43:36+00:00&#39;&gt;2026-10-27&lt;/time&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;记录一下 Galaxy 分析平台从 &lt;strong&gt;release_20.09&lt;/strong&gt; 升级到 &lt;strong&gt;release_24.0&lt;/strong&gt;，横跨九个发布版本的升级之路。&lt;/p&gt;
 &lt;!-- more --&gt;
 
@@ -6819,7 +6819,7 @@ newgrp&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;docker&lt;span class=&#34;w&#3
       
       
       
-      <description>&lt;div class=&#39;document-dates-plugin-wrapper document-dates-top&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2024-02-04&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2024-02-04T00:00:00+00:00&#39;&gt;2024-02-04&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-10-27&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-10-27T01:34:42+00:00&#39;&gt;2026-10-27&lt;/time&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+      <description>&lt;div class=&#39;document-dates-plugin-wrapper document-dates-top&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2024-02-04&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2024-02-04T00:00:00+00:00&#39;&gt;2024-02-04&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-10-27&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-10-27T01:43:36+00:00&#39;&gt;2026-10-27&lt;/time&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;blockquote&gt;
 &lt;p&gt;说明：本文章原文发布于 《&lt;a href=&#34;https://www.yuque.com/shenweiyan/biox/planemo-for-galaxy&#34;&gt;使用 Planemo 进行 Galaxy 工具开发 - 语雀&lt;/a&gt;》，部分内容已更新。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -7993,7 +7993,7 @@ template: home.html
       
       
       
-      <description>&lt;div class=&#39;document-dates-plugin-wrapper document-dates-top&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2024-01-08&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2024-01-08T00:00:00+00:00&#39;&gt;2024-01-08&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-10-27&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-10-27T01:34:42+00:00&#39;&gt;2026-10-27&lt;/time&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+      <description>&lt;div class=&#39;document-dates-plugin-wrapper document-dates-top&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2024-01-08&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2024-01-08T00:00:00+00:00&#39;&gt;2024-01-08&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-10-27&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-10-27T01:43:36+00:00&#39;&gt;2026-10-27&lt;/time&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;blockquote&gt;
 &lt;p&gt;编译：&lt;a href=&#34;https://www.weiyan.cc&#34;&gt;沈维燕&lt;/a&gt;   &lt;br /&gt;
 原文：&lt;a href=&#34;https://docs.galaxyproject.org/en/master/admin/python.html&#34;&gt;https://docs.galaxyproject.org/en/master/admin/python.html&lt;/a&gt;       &lt;/p&gt;
@@ -8063,7 +8063,7 @@ template: home.html
       
       
       
-      <description>&lt;div class=&#39;document-dates-plugin-wrapper document-dates-top&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2024-01-08&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2024-01-08T00:00:00+00:00&#39;&gt;2024-01-08&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-10-27&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-10-27T01:34:42+00:00&#39;&gt;2026-10-27&lt;/time&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+      <description>&lt;div class=&#39;document-dates-plugin-wrapper document-dates-top&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2024-01-08&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2024-01-08T00:00:00+00:00&#39;&gt;2024-01-08&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-10-27&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-10-27T01:43:36+00:00&#39;&gt;2026-10-27&lt;/time&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;blockquote&gt;
 &lt;p&gt;编译：&lt;a href=&#34;https://www.weiyan.cc&#34;&gt;Shen Weiyan&lt;/a&gt;    &lt;br /&gt;
 原文：&lt;a href=&#34;https://docs.galaxyproject.org/en/master/admin/python.html&#34;&gt;https://docs.galaxyproject.org/en/master/admin/python.html&lt;/a&gt;      &lt;/p&gt;
@@ -8099,7 +8099,7 @@ template: home.html
       
       
       
-      <description>&lt;div class=&#39;document-dates-plugin-wrapper document-dates-top&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2024-01-05&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2024-01-05T00:00:00+00:00&#39;&gt;2024-01-05&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-10-27&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-10-27T01:34:42+00:00&#39;&gt;2026-10-27&lt;/time&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+      <description>&lt;div class=&#39;document-dates-plugin-wrapper document-dates-top&#39;&gt;&lt;div class=&#39;document-dates-plugin&#39; locale=&#39;&#39;&gt;&lt;div class=&#39;dd-left&#39;&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2024-01-05&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_created&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2024-01-05T00:00:00+00:00&#39;&gt;2024-01-05&lt;/time&gt;&lt;/span&gt;&lt;span class=&#39;dd-item&#39; data-tippy-content data-tippy-raw=&#39;2026-10-27&#39;&gt;&lt;span class=&#39;material-icons&#39; data-icon=&#39;doc_updated&#39;&gt;&lt;/span&gt;&lt;time datetime=&#39;2026-10-27T01:43:36+00:00&#39;&gt;2026-10-27&lt;/time&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;a href=&#34;https://docs.galaxyproject.org/&#34;&gt;https://docs.galaxyproject.org/&lt;/a&gt; 是 Galaxy Project 官方的文档地址链接，这是一个基于 &lt;a href=&#34;https://www.sphinx-doc.org/&#34;&gt;Sphinx&lt;/a&gt; + &lt;a href=&#34;https://readthedocs.org/&#34;&gt;Read the Docs&lt;/a&gt; 的文档站点。如果我们也想要创建一个这样一模一样的 Galaxy 文档需要怎么操作呢？&lt;/p&gt;
 &lt;!-- more --&gt;
 
