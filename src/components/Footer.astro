@@ -1,0 +1,16 @@
+---
+import { siteConfig } from "../lib/config";
+import { PROJECT_NAME, PROJECT_URL } from "../lib/project";
+---
+
+<footer class="border-t border-rule">
+  <div class="mx-auto flex max-w-5xl flex-wrap justify-between gap-2 px-6 pt-6 pb-12 text-sm text-muted">
+    <p class="font-semibold text-fg break-keep">{siteConfig.websiteTitle}</p>
+    <p>
+      Powered by{" "}
+      <a href={PROJECT_URL} class="pen-link hover:text-fg">
+        {PROJECT_NAME}
+      </a>
+    </p>
+  </div>
+</footer>

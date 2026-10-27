@@ -1,0 +1,141 @@
+---
+import { siteConfig } from "../lib/config";
+import { giscusLangFor } from "../lib/giscus";
+import { getSite } from "../lib/site";
+
+interface Props {
+  number: number;
+  // the discussion's category in discussions mode
+  category: { id: string; name: string } | null;
+}
+
+const { number, category } = Astro.props;
+const { repoOwner, repoName, source, language } = siteConfig;
+const repo = `${repoOwner}/${repoName}`;
+
+// what the script below needs to load a widget and set its theme: utterances in issues mode, giscus in discussions mode
+interface Widget {
+  src: string;
+  origin: string;
+  // the script element attribute a widget reads its theme from, and its names for the site's two themes
+  themeAttribute: string;
+  light: string;
+  dark: string;
+  attributes: Record<string, string>;
+}
+
+let widget: Widget;
+if (source === "issues") {
+  widget = {
+    src: "https://utteranc.es/client.js",
+    origin: "https://utteranc.es",
+    themeAttribute: "theme",
+    light: "github-light",
+    dark: "github-dark",
+    attributes: { repo, "issue-number": String(number) },
+  };
+} else {
+  const { repoId } = await getSite();
+  // the loaders fill both only in discussions mode; null here means a loader is broken
+  if (repoId === null || category === null) {
+    throw new Error(
+      `discussions mode requires repoId on the site entry and a category on post ${number}`,
+    );
+  }
+  widget = {
+    src: "https://giscus.app/client.js",
+    origin: "https://giscus.app",
+    themeAttribute: "data-theme",
+    light: "light",
+    dark: "dark",
+    attributes: {
+      "data-repo": repo,
+      "data-repo-id": repoId,
+      "data-category": category.name,
+      "data-category-id": category.id,
+      "data-mapping": "number",
+      "data-term": String(number),
+      "data-strict": "1",
+      "data-reactions-enabled": "1",
+      "data-emit-metadata": "0",
+      "data-input-position": "bottom",
+      "data-lang": giscusLangFor(language),
+    },
+  };
+}
+---
+
+<script is:inline define:vars={{ widget }}>
+  // Both widgets are cross-origin iframes. They read their theme from their script element when they start, and take a
+  // message to change it later. The reader may have toggled the site away from the OS color scheme, so the widget starts
+  // with the site's theme, and each toggle sends the message.
+  const root = document.documentElement;
+  const siteTheme = () =>
+    root.classList.contains("dark") ? widget.dark : widget.light;
+  const message = (theme) =>
+    widget.origin === "https://giscus.app"
+      ? { giscus: { setConfig: { theme } } }
+      : { type: "set-theme", theme };
+
+  // created here rather than written in the page: a cached widget script can run before an inline script after it is
+  // parsed, and would read its theme attribute before that script set it
+  const startTheme = siteTheme();
+  const script = document.createElement("script");
+  script.src = widget.src;
+  script.async = true;
+  script.crossOrigin = "anonymous";
+  for (const [name, value] of Object.entries(widget.attributes)) {
+    script.setAttribute(name, value);
+  }
+  script.setAttribute(widget.themeAttribute, startTheme);
+  document.currentScript.after(script);
+
+  let frame = null;
+  // the theme the frame was last given, or null when that isn't known
+  let shown = startTheme;
+  // Each time the frame loads, its theme isn't known: giscus reloads it on signing out with the theme it started with,
+  // and Safari going Back without its page cache restores the frame's older address. So the theme is sent then, which
+  // giscus takes; utterances only listens once its own first message has been sent, so it's sent again at that message
+  let unconfirmed = false;
+  const send = () => {
+    shown = siteTheme();
+    frame.postMessage(message(shown), widget.origin);
+  };
+  const sync = () => {
+    if (frame !== null && shown !== siteTheme()) {
+      send();
+    }
+  };
+  // a load event doesn't reach window, so this listens on document
+  document.addEventListener(
+    "load",
+    (event) => {
+      if (
+        event.target instanceof HTMLIFrameElement &&
+        event.target.src.startsWith(`${widget.origin}/`)
+      ) {
+        frame = event.target.contentWindow;
+        shown = null;
+        unconfirmed = true;
+        sync();
+      }
+    },
+    true,
+  );
+  addEventListener("message", (event) => {
+    if (event.origin !== widget.origin) {
+      return;
+    }
+    frame = event.source;
+    if (unconfirmed) {
+      unconfirmed = false;
+      send();
+    } else {
+      sync();
+    }
+  });
+  new MutationObserver(sync).observe(root, {
+    attributes: true,
+    attributeFilter: ["class"],
+  });
+</script>

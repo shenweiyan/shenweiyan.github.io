@@ -1,0 +1,33 @@
+---
+import type { GetStaticPaths, InferGetStaticPropsType } from "astro";
+import { getCollection } from "astro:content";
+import PostIndex from "../components/PostIndex.astro";
+import Base from "../layouts/Base.astro";
+import { siteConfig } from "../lib/config";
+import { PAGE_SIZE } from "../lib/pagination";
+import { byPinnedThenNewest } from "../lib/posts";
+
+export const getStaticPaths = (async ({ paginate }) => {
+  const posts = (await getCollection("posts")).sort((a, b) =>
+    byPinnedThenNewest(a.data, b.data),
+  );
+  return paginate(posts, { pageSize: PAGE_SIZE });
+}) satisfies GetStaticPaths;
+
+type Props = InferGetStaticPropsType<typeof getStaticPaths>;
+
+const { page } = Astro.props;
+const pageSuffix = page.currentPage > 1 ? ` - Page ${page.currentPage}` : "";
+---
+
+<Base title={`${siteConfig.websiteTitle}${pageSuffix}`}>
+  <PostIndex
+    heading="Posts"
+    total={page.total}
+    posts={page.data}
+    currentPage={page.currentPage}
+    lastPage={page.lastPage}
+    prefix=""
+    markPinned
+  />
+</Base>

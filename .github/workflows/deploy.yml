@@ -1,0 +1,103 @@
+name: Deploy Repozine to GitHub Pages
+
+on:
+  # main is this repo's default branch; repozine lets downstream repos push
+  # template updates straight to their tracked branch and have it deploy.
+  push:
+    branches: [main, repozine]
+  workflow_dispatch:
+  # issue and discussion events only run workflows from the default branch, so a repo that keeps Repozine on its
+  # repozine branch calls this file there from a short workflow on its default branch (see the README)
+  workflow_call:
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  # 新增：独立检查作业，判断过去 24 小时内是否有 Discussions 变动
+  check-changes:
+    runs-on: ubuntu-latest
+    permissions:
+      discussions: read
+    outputs:
+      has_changes: ${{ steps.check_discussions.outputs.has_changes }}
+    steps:
+      - name: Check Discussions Changes
+        id: check_discussions
+        run: |
+          YESTERDAY=$(date -d "24 hours ago" -u +"%Y-%m-%dT%H:%M:%SZ")
+          echo "Checking discussions updated since: $YESTERDAY"
+
+          RECENT_DISCUSSIONS=$(gh api /repos/${{ github.repository }}/discussions --paginate -q ".[] | select(.updated_at > \"$YESTERDAY\")")
+
+          if [ -n "$RECENT_DISCUSSIONS" ]; then
+            echo "Discussion changes detected."
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "No discussion changes in the last 24 hours."
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+
+  build:
+    # 依赖检查作业，且仅在存在变动时执行
+    needs: check-changes
+    if: needs.check-changes.outputs.has_changes == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: read
+      discussions: read
+      # actions/configure-pages reads the Pages site's URL
+      pages: read
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          # empty REPOZINE_REF checks out the triggering ref; downstream repos
+          # set it to "repozine" to build from their tracked branch
+          ref: ${{ vars.REPOZINE_REF }}
+          # nothing below pushes, and npm ci runs dependencies' install scripts, so don't leave the token in .git/config
+          persist-credentials: false
+
+      # vitest and jsdom need Node 22.22.2+, 24.15+ or 26+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install Dependencies
+        run: npm ci
+      - name: Test
+        run: npm test
+      # type-checks the site before it deploys; it syncs the content collections first, so it fetches the posts too
+      - name: Check
+        run: npm run check
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+      # the site's real address, custom domain included: its origin for absolute URLs and its path as the base
+      - id: pages
+        uses: actions/configure-pages@v6
+      - name: Build
+        run: npm run build
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          SITE_URL: ${{ steps.pages.outputs.base_url }}
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

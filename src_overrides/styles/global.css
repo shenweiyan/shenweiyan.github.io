@@ -1,0 +1,328 @@
+@import "tailwindcss";
+@import "@fontsource/ibm-plex-mono/400.css";
+@plugin "@tailwindcss/typography";
+
+/* every color the site uses is one of these tokens; .dark below swaps their values, so markup needs no dark: variants */
+@theme {
+  /* a site written in Korean loads the Hangul faces (see astro.config.ts); code falls back to the sans face for Hangul */
+  --font-sans: "IBM Plex Sans KR", ui-sans-serif, system-ui, sans-serif;
+  --font-mono:
+    "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, "IBM Plex Sans KR",
+    monospace;
+
+  --color-page: #ffffff;
+  --color-surface: #f4f5f7;
+  --color-fg: #15171c;
+  /* muted and faint both keep 4.5:1 against page */
+  --color-muted: #5f6672;
+  --color-faint: #6e7581;
+  --color-rule: #e2e4e8;
+  --color-marker: #ffe66b;
+  --color-on-marker: #15171c;
+  /* for a solid fill such as the current tag or page, rather than a stroke under text */
+  --color-marker-fill: #ffe66b;
+  --color-on-marker-fill: #15171c;
+}
+
+.dark {
+  --color-page: #0e1014;
+  --color-surface: #171a20;
+  --color-fg: #e6e8ec;
+  --color-muted: #9aa2ad;
+  --color-faint: #838b97;
+  --color-rule: #262a32;
+  --color-marker: rgb(255 214 10 / 0.28);
+  --color-on-marker: #fff3c4;
+  /* the translucent marker turns olive once it fills a whole chip on the dark page */
+  --color-marker-fill: #e7c20b;
+  color-scheme: dark;
+}
+
+/* the typography plugin reads its colors from these variables, so pointing them at the tokens makes posts follow the theme */
+.prose {
+  --tw-prose-body: var(--color-fg);
+  --tw-prose-headings: var(--color-fg);
+  --tw-prose-lead: var(--color-muted);
+  --tw-prose-links: var(--color-fg);
+  --tw-prose-bold: var(--color-on-marker);
+  --tw-prose-counters: var(--color-muted);
+  --tw-prose-bullets: var(--color-faint);
+  --tw-prose-hr: var(--color-rule);
+  --tw-prose-quotes: var(--color-muted);
+  --tw-prose-quote-borders: var(--color-rule);
+  --tw-prose-captions: var(--color-muted);
+  --tw-prose-kbd: var(--color-fg);
+  --tw-prose-kbd-shadows: color-mix(in srgb, var(--color-fg) 10%, transparent);
+  --tw-prose-code: var(--color-fg);
+  --tw-prose-pre-code: var(--color-fg);
+  --tw-prose-pre-bg: var(--color-surface);
+  --tw-prose-th-borders: var(--color-rule);
+  --tw-prose-td-borders: var(--color-rule);
+  line-height: 1.8;
+}
+
+/* the post body's element styles below are ported from imjiaoyuan.github.io's .content rules, with its
+   palette mapped onto this site's tokens so the dark theme keeps working */
+
+/* every block in a post body — paragraphs, headings, lists, quotes, code, tables, rules — sits exactly
+   0.4em below the previous block and none above it, so a post reads as one even sheet */
+.prose :is(p, pre, blockquote, table, ul, ol, h1, h2, h3, h4, h5, h6, hr) {
+  margin: 0 0 0.4em;
+  overflow-wrap: break-word; /* 允许在长单词内部断行 */
+  word-break: break-word;    /* 兼容性更好的备选，但标准推荐用 overflow-wrap */
+}
+
+.prose h1 {
+  font-size: 1.5em;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.prose h2 {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.prose h3 {
+  font-size: 1.12em;
+  font-weight: 600;
+}
+
+.prose img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* the typography plugin makes quotes italic, muted, with decorative quotation marks; the ported style is a
+   plain left rule with body-color text, so undo all three */
+.prose blockquote {
+  padding-left: 1em;
+  border-left: 0.25em solid var(--color-fg);
+  color: var(--color-fg);
+  font-weight: 400;
+  font-style: normal;
+}
+
+.prose blockquote p:first-of-type::before,
+.prose blockquote p:last-of-type::after {
+  content: none;
+}
+
+/* a bordered, horizontally scrollable table with a visible grid; the plugin's section borders are recolored
+   to match the cell borders, since border-collapse would otherwise mix the two colors */
+.prose table {
+  border-collapse: collapse;
+  display: block;
+  overflow-x: auto;
+}
+
+.prose th,
+.prose td {
+  border: 1px solid var(--color-fg);
+  padding: 0.3em 0.6em;
+}
+
+.prose thead,
+.prose tbody tr,
+.prose tfoot {
+  border-color: var(--color-fg);
+}
+
+.prose hr {
+  border: 0;
+  border-top: 1px solid var(--color-fg);
+  height: 0;
+}
+
+.prose a {
+  text-decoration-color: var(--color-faint);
+  text-underline-offset: 3px;
+}
+
+.prose a:hover {
+  text-decoration-color: var(--color-fg);
+}
+
+/* a link around an image or inline code keeps the typography plugin's underline: a background line would run beneath
+   the image, and sits less than a pixel below the code's own background, which partly hides it in Safari */
+.prose a:not(:has(img, code), .heading-link) {
+  @apply pen-link;
+}
+
+/* a heading's text is a link to the heading (see rehypeHeadingLinks) that looks like the heading itself, with a "#"
+   after it while hovered or focused. The "#" is left out of the link's accessible name, and it always takes its space,
+   so showing it can't rewrap the heading */
+.prose .heading-link {
+  color: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+  &::after {
+    content: "#" / "";
+    margin-inline-start: 0.4em;
+    color: var(--color-faint);
+    font-weight: 400;
+    visibility: hidden;
+  }
+  &:is(:hover, :focus-visible)::after {
+    visibility: visible;
+  }
+}
+
+/* a highlighter stroke under the lower part of the text, the way a reader marks a study note */
+@utility marker-stroke {
+  background: linear-gradient(
+    transparent 55%,
+    var(--color-marker) 55%,
+    var(--color-marker) 92%,
+    transparent 92%
+  );
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+/* a background stroke drawn from left to right as it grows to full width (stroke-drawn). Sliced rather than cloned,
+   so a wrapped link is drawn one line after the other; erased faster than drawn, so sweeping the pointer down a list
+   leaves less half-drawn behind */
+@utility stroke-draw {
+  background-repeat: no-repeat;
+  -webkit-box-decoration-break: slice;
+  box-decoration-break: slice;
+  transition: background-size 150ms ease-out;
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+  }
+}
+
+@utility stroke-drawn {
+  background-size: 100% 100%;
+  transition-duration: 300ms;
+}
+
+/* two @apply lines keep stroke-draw's slice after marker-stroke's clone; a single @apply list is re-sorted by Tailwind */
+@utility marker-draw {
+  @apply marker-stroke;
+  @apply stroke-draw;
+  background-size: 0% 100%;
+}
+
+/* a text link rests on a faint line, and a line in its text color is drawn over it on hover;
+   both are backgrounds, since text-decoration can't be drawn partway */
+@utility pen-link {
+  background-image:
+    linear-gradient(transparent calc(100% - 1px), currentColor 0),
+    linear-gradient(transparent calc(100% - 1px), var(--color-faint) 0);
+  background-size:
+    0% 100%,
+    100% 100%;
+  @apply stroke-draw;
+  text-decoration: none;
+  @variant hover {
+    @apply stroke-drawn;
+  }
+  /* forced colors, and printing without background graphics, drop the gradients, so the link falls back to an underline */
+  @media (forced-colors: active), print {
+    background-image: none;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+}
+
+/* search results wrap matched words in <mark>, so they get the same stroke */
+.prose strong,
+mark {
+  @apply marker-stroke;
+}
+
+mark {
+  color: var(--color-on-marker);
+}
+
+/* forced colors drop the stroke's gradient, which would leave a match looking like the words around it */
+@media (forced-colors: active) {
+  mark {
+    background: Mark;
+    color: MarkText;
+  }
+}
+
+/* a search in progress: a segment 40% of its track wide, moved from just off the left edge to just off the right */
+@theme {
+  --animate-sweep: sweep 1.2s ease-in-out infinite;
+
+  @keyframes sweep {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(250%);
+    }
+  }
+}
+
+/* in the base layer so a selection: utility can override it on the marker-filled current tag and page */
+@layer base {
+  ::selection {
+    background: var(--color-marker);
+    color: var(--color-on-marker);
+  }
+}
+
+/* code blocks and inline code both step down to 0.95em */
+.prose pre,
+.prose code {
+  font-size: 0.95em;
+}
+
+/* inline code is a small bordered chip on the surface */
+.prose :not(pre) > code {
+  padding: 0.1em 0.3em;
+  background: var(--color-surface);
+  border: 1px solid var(--color-rule);
+  border-radius: 4px;
+  font-weight: 400;
+}
+
+/* a code block is a bordered box on the surface, with a little padding and horizontal scroll */
+.prose pre {
+  padding: 0.8em 1em;
+  overflow-x: auto;
+  background: var(--color-surface);
+  border: 1px solid var(--color-rule);
+  border-radius: 8px;
+}
+
+/* CopyCode.astro puts its button in the box that rehypeWrapCodeBlocks puts around each pre, so the box takes over
+   the pre's margin from the ported 0.4em rhythm and the button sits at the pre's corner */
+.prose .code-block {
+  position: relative;
+  margin: 0 0 0.4em;
+}
+
+.prose .code-block > pre {
+  margin-block: 0;
+  /* a touch screen always shows the button, so leave room for it at the end of a first line scrolled all the way; this
+     can make a block that fit scroll, which a pointer device, where the button shows only on hover, is spared */
+  @media (hover: none) {
+    padding-inline-end: 4.5rem;
+  }
+}
+
+/* an embed never runs past the column; rehypeEmbedAspectRatio keeps its shape as it shrinks */
+.prose iframe {
+  max-width: 100%;
+}
+
+/* Shiki inlines the light theme, including a #fff background, and exposes the dark one as variables */
+.prose pre.shiki {
+  background-color: var(--color-surface) !important;
+}
+
+.dark .shiki,
+.dark .shiki span {
+  color: var(--shiki-dark) !important;
+}
+
+/* leave room above a heading when a fragment link scrolls to it */
+.prose :where(h1, h2, h3, h4, h5, h6) {
+  scroll-margin-top: 1rem;
+}
