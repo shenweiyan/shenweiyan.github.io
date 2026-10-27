@@ -34,7 +34,7 @@ jobs:
       - name: 获取并保存所有 Discussions content+meta 信息
         run: |
           ls -al docs
-          python3 script/getAllDiscussions.py -r shenweiyan/Digital-Garden -t ${{ secrets.PERSONAL_ACCESS_TOKEN }} -m both
+          python3 script/getAllDiscussions.py -r shenweiyan/shenweiyan.github.io -t ${{ secrets.PERSONAL_ACCESS_TOKEN }} -m both
           ls -al docs
 
       - name: 生成 mkdocs 博客文章
