@@ -70,6 +70,7 @@
   margin: 0 0 0.4em;
   overflow-wrap: break-word; /* 允许在长单词内部断行 */
   word-break: break-word;    /* 兼容性更好的备选，但标准推荐用 overflow-wrap */
+  font-size: 14px; /*shenweiyan: 强制字体大小*/
 }
 
 .prose h1 {
@@ -91,6 +92,7 @@
 .prose img {
   max-width: 100%;
   height: auto;
+  margin: 0 0 2em 0;/*shenweiyan: 设置图片边距*/
 }
 
 /* the typography plugin makes quotes italic, muted, with decorative quotation marks; the ported style is a
@@ -271,6 +273,7 @@ mark {
 .prose pre,
 .prose code {
   font-size: 0.95em;
+  font-family: math; /*shenweiyan: 设置代码字体*/
 }
 
 /* inline code is a small bordered chip on the surface */
