@@ -76,7 +76,7 @@ def get_discussions(query, url, headers):
 
 def __main__():
     usage  = "usage: python3 %prog [options] \n\nExample:\n"
-    usage  = usage + "    python3 %prog -r shenweiyan/Digital-Garden -t ghp_m8Iu12345abcdsfm6HzB"
+    usage  = usage + "    python3 %prog -r shenweiyan/shenweiyan.github.io -t ghp_m8Iu12345abcdsfm6HzB"
     usage  = usage + "\n\nDescription:\n"
     usage  = usage + "    1. 比较 Discussions 是否变动, 以确认下一步部署。\n"
     usage  = usage + "    2. 默认生成 docs/diff.txt, 内容为前后两个 discussions 文件 diff 的结果。"

@@ -93,7 +93,7 @@ def __main__():
             
             # 使用 giscus 加载评论
             comments = ( f'\n\n<script src="https://giscus.app/client.js"\n'
-                         f'\tdata-repo="shenweiyan/Digital-Garden"\n'
+                         f'\tdata-repo="shenweiyan/shenweiyan.github.io"\n'
                          f'\tdata-repo-id="R_kgDOKgxWlg"\n'
                          f'\tdata-mapping="number"\n'
                          f'\tdata-term="{discussion_number}"\n'
@@ -126,7 +126,7 @@ def __main__():
                        f'vssue: ""\n'
                        f'---\n\n'
                        f'# 博客文章\n\n'
-                       f'这是来源于 [Discussions · Digital-Garden](https://github.com/shenweiyan/Digital-Garden/discussions)，定期同步更新至本站点上的博客类文章。\n\n'
+                       f'这是来源于 [Discussions · shenweiyan.github.io](https://github.com/shenweiyan/shenweiyan.github.io/discussions)，定期同步更新至本站点上的博客类文章。\n\n'
                        f'???+ "本站点所有博客文章归档"\n\n')
 
     # 保存博客的主页面输出结果
