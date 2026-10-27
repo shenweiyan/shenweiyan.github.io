@@ -1,12 +1,12 @@
 # 维燕的数字花园
 
-知识管理就像一个花园，需要精心培育和持续维护才能繁荣。这是一个 **All in [GitHub Discussions](https://github.com/shenweiyan/Digital-Garden/discussions)** 的知识库，没事在 GitHub 写写文章，喜欢的话请点 Star，想订阅点 Watch。     
+知识管理就像一个花园，需要精心培育和持续维护才能繁荣。这是一个 **All in [GitHub Discussions](https://github.com/shenweiyan/shenweiyan.github.io/discussions)** 的知识库，没事在 GitHub 写写文章，喜欢的话请点 Star，想订阅点 Watch。     
 
 - 在 GitHub 订阅 Discussions          
   ![订阅 GitHub Discussions](https://shub.weiyan.tech/website/watch-github-discussions.png)
 
 - 从 RSS 订阅 Discussions          
-  <https://github.com/shenweiyan/Digital-Garden/discussions.atom>
+  <https://github.com/shenweiyan/shenweiyan.github.io/discussions.atom>
 
 ## 特别说明
 
@@ -21,14 +21,3 @@
 ## 最后
 
 内容不断更新中，如果有帮助欢迎点个激励的⭐️
-
-
-<!-- Security scan triggered at 2025-09-02 14:23:40 -->
-
-<!-- Security scan triggered at 2025-09-02 15:25:44 -->
-
-<!-- Security scan triggered at 2025-09-02 15:26:00 -->
-
-<!-- Security scan triggered at 2025-09-02 15:26:38 -->
-
-<!-- Security scan triggered at 2025-09-02 15:27:06 -->
