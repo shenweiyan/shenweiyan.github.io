@@ -4,7 +4,7 @@
   "repoName": "shenweiyan.github.io",
   "source": "discussions",
   "discussionCategoryExample": ["Announcements"],
-  "discussionCategory": ["0-1-站点", "1-1-生信", "1-2-编程", "1-3-软件", "1-4-数据库", "1-5-可视化", "1-6-人工智能", "1-7-开发", "1-8-运维", "2-1-乱弹", "2-2-好玩", "2-3-资讯", "2-4-知识", "2-5-语雀", "2-6-运动", "2-7-户外", "3-1-Galaxy", "3-2-RockyLinux", "Announcements",  "x-x-留言"],
+  "discussionCategory": ["0-1-站点", "1-1-生信", "1-2-编程", "1-3-软件", "1-4-数据库", "1-5-可视化", "1-6-人工智能", "1-7-开发", "1-8-运维", "2-1-乱弹", "2-2-好玩", "2-3-资讯", "2-4-知识", "2-5-语雀", "2-6-运动", "2-7-户外", "3-1-galaxy", "3-2-rockylinux", "announcements",  "x-x-留言"],
   "googleAnalyticsId": "",
   "language": "zh"
 }
