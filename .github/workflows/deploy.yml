@@ -42,9 +42,9 @@ jobs:
           GH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
   build:
-    # 依赖检查作业，且仅在存在变动时执行
+    # 依赖检查作业，在当前运行的分支是 repozine 分支，或存在变动时执行
     needs: check-changes
-    if: needs.check-changes.outputs.has_changes == 'true'
+    if: github.ref == 'refs/heads/repozine' || needs.check-changes.outputs.has_changes == 'true'
     runs-on: ubuntu-latest
     permissions:
       contents: read
