@@ -269,6 +269,14 @@ mark {
   }
 }
 
+/*shenweiyan:固定header*/
+header.border-b.border-rule {
+  background-color: var(--color-page);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}  
+
 /* code blocks and inline code both step down to 0.95em */
 .prose pre,
 .prose code {
