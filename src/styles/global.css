@@ -269,8 +269,12 @@ mark {
   }
 }
 
-/*shenweiyan:固定header*/
-header.border-b.border-rule {
+/*shenweiyan:固定header — 只固定顶部导航栏，main 内文章标题 header 不固定；aside 侧栏用 --site-header-h（导航栏实测高度）把吸顶位置挪到导航栏下方*/
+:root {
+  --site-header-h: 4rem; /* 脚本实测前的兜底值 */
+}
+
+header.site-header {
   background-color: var(--color-page);
   position: sticky;
   top: 0;

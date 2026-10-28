@@ -150,5 +150,28 @@ const ogLocale = ogLocaleFor(language);
         );
       }
     </script>
+    <script is:inline>
+      // 实测顶部导航栏高度并写入 --site-header-h，让文章侧栏 aside 的吸顶位置恰好落在导航栏下方；
+      // 样式与字体加载完成、窗口尺寸变化后各再测一次，兜底值 4rem 保证脚本运行前侧栏不被导航栏遮挡
+      (function () {
+        const header = document.querySelector("header.site-header");
+        if (!header) return;
+        const root = document.documentElement;
+        const measure = () =>
+          root.style.setProperty(
+            "--site-header-h",
+            header.getBoundingClientRect().height + "px",
+          );
+        measure();
+        addEventListener("load", measure);
+        if (document.fonts && document.fonts.ready)
+          document.fonts.ready.then(measure);
+        let t;
+        addEventListener("resize", () => {
+          clearTimeout(t);
+          t = setTimeout(measure, 120);
+        });
+      })();
+    </script>
   </body>
 </html>
