@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Tue, 27 Oct 2026 15:45:18 -0000</pubDate>
-    <lastBuildDate>Tue, 27 Oct 2026 15:45:18 -0000</lastBuildDate>
+    <pubDate>Wed, 28 Oct 2026 16:27:35 -0000</pubDate>
+    <lastBuildDate>Wed, 28 Oct 2026 16:27:35 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -3455,7 +3455,7 @@ ImportError:&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;libpython3.6m.so.1.0:&lt
 &lt;p&gt;&lt;img alt=&#34;galaxy-more-than-you-think&#34; src=&#34;https://gi.weiyan.tech/2025/03/galaxy-more-than-you-think.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;所以，总的来说，如果只是想借助 Galaxy 的平台完成命令行工具(程序)到 UI 可视化操作这一业务需求，可以简单选择 &lt;strong&gt;≤&lt;/strong&gt; release_24.0 的版本；如果更加侧重 &lt;strong&gt;workflows&lt;/strong&gt;，或者两者兼顾，可以选择 release_24.1 或者更高的版本 - 从颜值上个人更喜欢 24.2 这一个对 &lt;strong&gt;Masthead Revision&lt;/strong&gt; 导航优化后的布局。&lt;/p&gt;
 &lt;script src=&#34;https://giscus.app/client.js&#34;
-    data-repo=&#34;shenweiyan/shenweiyan.github.io&#34;
+    data-repo=&#34;shenweiyan/Digital-Garden&#34;
     data-repo-id=&#34;R_kgDOKgxWlg&#34;
     data-mapping=&#34;number&#34;
     data-term=&#34;105&#34;
@@ -4373,7 +4373,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;make&lt;span class=&#34;w&#34;&gt; 
 &lt;h2 id=&#34;总结&#34;&gt;总结&lt;a class=&#34;headerlink&#34; href=&#34;#总结&#34; title=&#34;Permanent link&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;更新后的 release_24.0 界面看起来比旧版本要更加清爽舒服一些，各个页面的汉化功能也有所改善，新增的 Notifications 功能也挺不错，总之升级之后各个方面还是挺满意的，其他细节和功能还在体验中。&lt;/p&gt;
 &lt;script src=&#34;https://giscus.app/client.js&#34;
-    data-repo=&#34;shenweiyan/shenweiyan.github.io&#34;
+    data-repo=&#34;shenweiyan/Digital-Garden&#34;
     data-repo-id=&#34;R_kgDOKgxWlg&#34;
     data-mapping=&#34;number&#34;
     data-term=&#34;90&#34;
@@ -7499,7 +7499,7 @@ This&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;tool&lt;span class=&#34;w&#34;&g
 &lt;li&gt;&lt;a href=&#34;https://cheetahtemplate.org/users_guide/index.html&#34;&gt;Cheetah templating&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;script src=&#34;https://giscus.app/client.js&#34;
-    data-repo=&#34;shenweiyan/shenweiyan.github.io&#34;
+    data-repo=&#34;shenweiyan/Digital-Garden&#34;
     data-repo-id=&#34;R_kgDOKgxWlg&#34;
     data-mapping=&#34;number&#34;
     data-term=&#34;57&#34;
@@ -8033,7 +8033,7 @@ template: home.html
 &lt;p&gt;如果您从源代码编译自己的 Python 解释器，请确保构建了 &lt;code&gt;ssl&lt;/code&gt;、&lt;code&gt;sqlite3&lt;/code&gt;、&lt;code&gt;curses&lt;/code&gt; 和 &lt;code&gt;bz2&lt;/code&gt; 模块，并且安装后可导入。这些 &amp;ldquo;额外&amp;rdquo; 模块是在编译过程的最后阶段构建的，并且是 Galaxy 框架所需的。如果在 Linux 上进行编译，您可能需要安装适用于 OpenSSL 和 Bzip2 的 &lt;code&gt;-dev&lt;/code&gt; 包。您可能还需要使用共享库 (&lt;code&gt;--enable-shared&lt;/code&gt;) 构建 Python。&lt;/p&gt;
 &lt;/div&gt;
 &lt;script src=&#34;https://giscus.app/client.js&#34;
-    data-repo=&#34;shenweiyan/shenweiyan.github.io&#34;
+    data-repo=&#34;shenweiyan/Digital-Garden&#34;
     data-repo-id=&#34;R_kgDOKgxWlg&#34;
     data-mapping=&#34;number&#34;
     data-term=&#34;47&#34;
@@ -8069,7 +8069,7 @@ template: home.html
 原文：&lt;a href=&#34;https://docs.galaxyproject.org/en/master/admin/python.html&#34;&gt;https://docs.galaxyproject.org/en/master/admin/python.html&lt;/a&gt;      &lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;script src=&#34;https://giscus.app/client.js&#34;
-    data-repo=&#34;shenweiyan/shenweiyan.github.io&#34;
+    data-repo=&#34;shenweiyan/Digital-Garden&#34;
     data-repo-id=&#34;R_kgDOKgxWlg&#34;
     data-mapping=&#34;number&#34;
     data-term=&#34;48&#34;
@@ -8184,7 +8184,7 @@ The&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;HTML&lt;span class=&#34;w&#34;&gt
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;最后生成的静态文件都保存在了 &lt;code&gt;build/html&lt;/code&gt; 目录，我们可以借助 NGINX 或者其他 Pages 就可以直接看到一个一模一样对应当前 Repo 版本的 Galaxy Project 文档了。&lt;/p&gt;
 &lt;script src=&#34;https://giscus.app/client.js&#34;
-    data-repo=&#34;shenweiyan/shenweiyan.github.io&#34;
+    data-repo=&#34;shenweiyan/Digital-Garden&#34;
     data-repo-id=&#34;R_kgDOKgxWlg&#34;
     data-mapping=&#34;number&#34;
     data-term=&#34;46&#34;
