@@ -30,10 +30,10 @@ const chips = [
 ---
 
 {chips.length > 1 && (
-  <nav aria-label="Tags">
+  <nav aria-label="Tags" class="min-w-0 max-h-[66px] overflow-y-auto">
     <ul class="flex flex-wrap gap-1.5">
       {chips.map((chip) => (
-        <li>
+        <li class="shrink-0">
           <a
             href={withBase(import.meta.env.BASE_URL, chip.href)}
             aria-current={chip.current ? "page" : undefined}
