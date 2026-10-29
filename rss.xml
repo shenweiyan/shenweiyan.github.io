@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Wed, 28 Oct 2026 16:27:35 -0000</pubDate>
-    <lastBuildDate>Wed, 28 Oct 2026 16:27:35 -0000</lastBuildDate>
+    <pubDate>Thu, 29 Oct 2026 16:39:02 -0000</pubDate>
+    <lastBuildDate>Thu, 29 Oct 2026 16:39:02 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -30,6 +30,65 @@
     
 
     
+    
+    <item>
+      <title>基于 GitHub Discussions 的 Repozine 极简主题</title>
+      
+      
+        
+      <author>Steven Shum</author>
+        
+      
+      
+      
+      <description>&lt;p&gt;放在 GitHub 的博文有一两周的时间没有更新了，工作带来的煎熬，业务方向的调整，让整个人对技术忽然就失去了焦点，AI 的环境困局里越来越有种学不动的无力。心力交瘁的时候，就开始想着对自己的博客站点来点不一样的调整。&lt;/p&gt;
+&lt;p&gt;MkDocs 主题看久了有点审美疲劳，东一篇西一篇的博文有点撑不起 Category 分明的文档站点，好像有点杀鸡用牛刀的感觉。&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;h2 id=&#34;主题&#34;&gt;主题&lt;a class=&#34;headerlink&#34; href=&#34;#主题&#34; title=&#34;Permanent link&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;搜了一下基于 issues 和 discussions 的极简博客主题，不多，比较知名，一个是基于 issues 的 &lt;a href=&#34;https://github.com/Meekdai/Gmeek&#34;&gt;Gmeek&lt;/a&gt; 和 &lt;a href=&#34;https://github.com/yihong0618/gitblog&#34;&gt;gitblog&lt;/a&gt;，一个是基于 discussions 的 &lt;a href=&#34;https://github.com/YeungKC/Hakuba&#34;&gt;Hakuba&lt;/a&gt;。除此之外，还有一个可以从 issues 和 discussions 任一平台发布的 Astro 框架主题 &lt;a href=&#34;https://github.com/zeikar/repozine&#34;&gt;Repozzine&lt;/a&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;repozzine&#34;&gt;Repozzine&lt;a class=&#34;headerlink&#34; href=&#34;#repozzine&#34; title=&#34;Permanent link&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;这是一个基于 Astro 框架的主题，很容易上手，界面也非常清爽简洁。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;主页界面
+  &lt;img alt=&#34;repozine-home-page&#34; src=&#34;https://gi.weiyan.tech/2026/10/repozine-home-page.png&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;文章页界面
+  &lt;img alt=&#34;repozine-post-page&#34; src=&#34;https://gi.weiyan.tech/2026/10/repozine-post-page.png&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这个主题怎么用，怎么配置，&lt;a href=&#34;https://github.com/zeikar/repozine/blob/main/README.md&#34;&gt;README&lt;/a&gt; 写的非常清楚，按照步骤操作就行，非常简单。&lt;/p&gt;
+&lt;p&gt;本地安装与预览。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ash
+git clone https://github.com/shenweiyan/repozine-demo.git
+cd repozine-demo
+npm install
+GITHUB_TOKEN=&amp;lt;GH_TOKEN&amp;gt; npm run dev -- --host&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;体验感受&#34;&gt;体验感受&lt;a class=&#34;headerlink&#34; href=&#34;#体验感受&#34; title=&#34;Permanent link&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;这是一个非常轻量的主题，简单。&lt;/p&gt;
+&lt;p&gt;AI 在手，很多东西都可以自己 DIY，如果你喜欢在 Issues 或者 Discussions 上写博客，可以尝试一下。&lt;/p&gt;
+&lt;script src=&#34;https://giscus.app/client.js&#34;
+    data-repo=&#34;shenweiyan/shenweiyan.github.io&#34;
+    data-repo-id=&#34;R_kgDOKgxWlg&#34;
+    data-mapping=&#34;number&#34;
+    data-term=&#34;199&#34;
+    data-reactions-enabled=&#34;1&#34;
+    data-emit-metadata=&#34;0&#34;
+    data-input-position=&#34;bottom&#34;
+    data-theme=&#34;light&#34;
+    data-lang=&#34;zh-CN&#34;
+    crossorigin=&#34;anonymous&#34;
+    async&gt;
+&lt;/script&gt;</description>
+      <link>https://shenwy.com/blog/discussions-199/</link>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <source url="https://shenwy.com/rss.xml">维燕的数字花园</source>
+      
+      <guid isPermaLink="true">https://shenwy.com/blog/discussions-199/</guid>
+      
+    </item>
     
     <item>
       <title>我的第二大脑 AtomGit</title>
