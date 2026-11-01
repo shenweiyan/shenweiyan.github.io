@@ -2166,580 +2166,120 @@ var _hmt = _hmt || [];
             
           
           
-  <div class="md-content" data-md-component="content">
+
+<style>
+.headerlink { display: none !important; }
+.md-content__button { display: none !important; }
+.techblog .md-draft { font-size: 0.9em; margin-left: 0.4rem; }
+article.md-content__inner.md-typeset {margin: 0 0 1.2rem 0; padding-top: 0rem;}
+</style>
+
+<div class="md-content" data-md-component="content">
+  <div class="md-content__inner">
+
     
-    
-    <div class="md-content__inner" data-pagefind-body="">
-      <header class="md-typeset">
+
+      <link rel="stylesheet" href="/assets/css/tech.css">
+
+      <article class="md-content__inner md-typeset">
         <h1 id="技术私房菜">技术私房菜<a class="headerlink" href="#技术私房菜" title="Permanent link">¶</a></h1>
-      </header>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://gi.weiyan.tech/0000/logo/logo.webp" alt="Steven Shum">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2023-12-26 00:00:00+00:00">2023年12月26日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
+      </article>
+
+      <div class="md-typeset">
+        <div class="techblog">
+          <ul>
             
-              <a href="../../category/%E7%BC%96%E7%A8%8B/" class="md-meta__link">编程</a></li>
-        
-        
-          
-          <li class="md-meta__item">
+            <li>
+              <a href="../../discussions-40/" data-date="2023年12月26日">
+                Pandas 处理 Excel 常用方法技巧
+                
+              </a>
+            </li>
             
-              需要 2 分钟阅读时间
+            <li>
+              <a href="../../discussions-30/" data-date="2023年12月1日">
+                单行 Python 代码片段
+                
+              </a>
+            </li>
             
-          </li>
-        
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="pandas-处理-excel-常用方法技巧"><a class="toclink" href="../../discussions-40/">Pandas 处理 Excel 常用方法技巧</a></h2>
-<p>在使用 Pandas 前需要学习了解一下 Series 和 DataFrame 的基本数据结构和索引的相关概念，之后就可以练习基本的 Excel操作。Pandas 读取一个 Excel 文件后会将其转化为 DataFrame 对象，每一列或行就是一个 Series 对象。这里我们看下如何对一个 excel 进行读写，以及 Sheet、行列、表头处理的一些常用技巧。</p>
-<h3 id="读取-excel"><a class="toclink" href="../../discussions-40/#读取-excel">读取 Excel</a></h3>
-<p>如果您想读取 Excel 表格中的数据，可以使用 <code>read_excel()</code> 方法，其语法格式如下：</p>
-<div class="highlight"><pre><span></span><code>pd.read_excel(io, sheet_name=0, header=0, names=None, index_col=None,
-              usecols=None, squeeze=False,dtype=None, engine=None,
-              converters=None, true_values=None, false_values=None,
-              skiprows=None, nrows=None, na_values=None, parse_dates=False,
-              date_parser=None, thousands=None, comment=None, skipfooter=0,
-              convert_float=True, **kwds)
-</code></pre></div>
+            <li>
+              <a href="../../discussions-27/" data-date="2023年12月1日">
+                Python3 编译安装 --with-openssl 无效的问题
+                
+              </a>
+            </li>
+            
+            <li>
+              <a href="../../discussions-25/" data-date="2023年11月30日">
+                不同版本服务器间 SSH 免密码登录失败
+                
+              </a>
+            </li>
+            
+            <li>
+              <a href="../../discussions-24/" data-date="2023年11月27日">
+                Micro/Mamba 安装与注意事项
+                
+              </a>
+            </li>
+            
+            <li>
+              <a href="../../discussions-17/" data-date="2023年11月21日">
+                NCBI API 使用
+                
+              </a>
+            </li>
+            
+            <li>
+              <a href="../../discussions-12/" data-date="2023年11月2日">
+                Python 中 tkinter 源码安装使用与中文乱码
+                
+              </a>
+            </li>
+            
+            <li>
+              <a href="../../discussions-13/" data-date="2023年11月2日">
+                Python3 源码安装
+                
+              </a>
+            </li>
+            
+            <li>
+              <a href="../../discussions-10/" data-date="2023年10月23日">
+                WebStack-Hugo | 一个静态响应式导航主题
+                
+              </a>
+            </li>
+            
+            <li>
+              <a href="../../discussions-8/" data-date="2023年10月23日">
+                个人域名跳转至语雀个人主页
+                
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+
 
     
-      <nav class="md-post__action">
-        <a href="../../discussions-40/">
-          继续阅读
-        </a>
-      </nav>
-    
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://gi.weiyan.tech/0000/logo/logo.webp" alt="Steven Shum">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2023-12-01 00:00:00+00:00">2023年12月1日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
-            
-              <a href="../../category/%E7%BC%96%E7%A8%8B/" class="md-meta__link">编程</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              需要 1 分钟阅读时间
-            
-          </li>
-        
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="单行-python-代码片段"><a class="toclink" href="../../discussions-30/">单行 Python 代码片段</a></h2>
-<blockquote>
-<p>Via：https://muhammadraza.me/2023/python-oneliners</p>
-</blockquote>
-<p>我已经沉浸在 Python 编程世界大约三年了。在这段时间里，我开始欣赏这种多功能语言的优雅和强大。在这篇既有趣又具有教育意义的文章中，我将展示一系列单行 Python 代码片段。无论您是经验丰富的开发人员还是初学者，这些简洁的代码行都可以让您深入了解 Python 的简单性和有效性，它们展示一行代码如何完成在其他语言中可能需要几行代码才能完成的任务。</p>
+
 
     
-      <nav class="md-post__action">
-        <a href="../../discussions-30/">
-          继续阅读
-        </a>
-      </nav>
-    
-    
-  </div>
-</article>
       
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://gi.weiyan.tech/0000/logo/logo.webp" alt="Steven Shum">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2023-12-01 00:00:00+00:00">2023年12月1日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
-            
-              <a href="../../category/%E8%BD%AF%E4%BB%B6/" class="md-meta__link">软件</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              需要 2 分钟阅读时间
-            
-          </li>
-        
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="python3-编译安装-with-openssl-无效的问题"><a class="toclink" href="../../discussions-27/">Python3 编译安装 –with-openssl 无效的问题</a></h2>
-<p>很多人在使用 Python3 经常会遇到一些 openssl 版本太低从而导致包无法正常使用的问题，尤其是 <code>urllib3</code> 这个包。
-</p><div class="highlight"><pre><span></span><code><span class="n">Python</span> <span class="mf">3.9.18</span> <span class="p">(</span><span class="n">main</span><span class="p">,</span> <span class="n">Sep</span>  <span class="mi">7</span> <span class="mi">2023</span><span class="p">,</span> <span class="mi">14</span><span class="p">:</span><span class="mi">32</span><span class="p">:</span><span class="mi">17</span><span class="p">)</span> 
-<span class="p">[</span><span class="n">GCC</span> <span class="mf">4.8.5</span> <span class="mi">20150623</span> <span class="p">(</span><span class="n">Red</span> <span class="n">Hat</span> <span class="mf">4.8.5</span><span class="o">-</span><span class="mi">44</span><span class="p">)]</span> <span class="n">on</span> <span class="n">linux</span>
-<span class="n">Type</span> <span class="s2">"help"</span><span class="p">,</span> <span class="s2">"copyright"</span><span class="p">,</span> <span class="s2">"credits"</span> <span class="ow">or</span> <span class="s2">"license"</span> <span class="k">for</span> <span class="n">more</span> <span class="n">information</span><span class="o">.</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
-<span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
-  <span class="n">File</span> <span class="s2">"&lt;stdin&gt;"</span><span class="p">,</span> <span class="n">line</span> <span class="mi">1</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
-  <span class="n">File</span> <span class="s2">"/usr/local/software/python-3.9.18/lib/python3.9/site-packages/requests/__init__.py"</span><span class="p">,</span> <span class="n">line</span> <span class="mi">43</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
-    <span class="kn">import</span><span class="w"> </span><span class="nn">urllib3</span>
-  <span class="n">File</span> <span class="s2">"/usr/local/software/python-3.9.18/lib/python3.9/site-packages/urllib3/__init__.py"</span><span class="p">,</span> <span class="n">line</span> <span class="mi">41</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
-    <span class="k">raise</span> <span class="ne">ImportError</span><span class="p">(</span>
-<span class="ne">ImportError</span><span class="p">:</span> <span class="n">urllib3</span> <span class="n">v2</span><span class="mf">.0</span> <span class="n">only</span> <span class="n">supports</span> <span class="n">OpenSSL</span> <span class="mf">1.1.1</span><span class="o">+</span><span class="p">,</span> <span class="n">currently</span> <span class="n">the</span> <span class="s1">'ssl'</span> <span class="n">module</span> <span class="ow">is</span> <span class="n">compiled</span> <span class="k">with</span> <span class="s1">'OpenSSL 1.0.2k-fips  26 Jan 2017'</span><span class="o">.</span> <span class="n">See</span><span class="p">:</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">urllib3</span><span class="o">/</span><span class="n">urllib3</span><span class="o">/</span><span class="n">issues</span><span class="o">/</span><span class="mi">2168</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span><span class="w"> </span><span class="nn">ssl</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span><span class="w"> </span><span class="nn">urllib3</span>
-<span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
-  <span class="n">File</span> <span class="s2">"&lt;stdin&gt;"</span><span class="p">,</span> <span class="n">line</span> <span class="mi">1</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
-  <span class="n">File</span> <span class="s2">"/usr/local/software/python-3.9.18/lib/python3.9/site-packages/urllib3/__init__.py"</span><span class="p">,</span> <span class="n">line</span> <span class="mi">41</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
-    <span class="k">raise</span> <span class="ne">ImportError</span><span class="p">(</span>
-<span class="ne">ImportError</span><span class="p">:</span> <span class="n">urllib3</span> <span class="n">v2</span><span class="mf">.0</span> <span class="n">only</span> <span class="n">supports</span> <span class="n">OpenSSL</span> <span class="mf">1.1.1</span><span class="o">+</span><span class="p">,</span> <span class="n">currently</span> <span class="n">the</span> <span class="s1">'ssl'</span> <span class="n">module</span> <span class="ow">is</span> <span class="n">compiled</span> <span class="k">with</span> <span class="s1">'OpenSSL 1.0.2k-fips  26 Jan 2017'</span><span class="o">.</span> <span class="n">See</span><span class="p">:</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">urllib3</span><span class="o">/</span><span class="n">urllib3</span><span class="o">/</span><span class="n">issues</span><span class="o">/</span><span class="mi">2168</span>
-</code></pre></div><p></p>
-
-    
-      <nav class="md-post__action">
-        <a href="../../discussions-27/">
-          继续阅读
-        </a>
-      </nav>
-    
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://gi.weiyan.tech/0000/logo/logo.webp" alt="Steven Shum">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2023-11-30 00:00:00+00:00">2023年11月30日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
-            
-              <a href="../../category/%E8%BD%AF%E4%BB%B6/" class="md-meta__link">软件</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              需要 2 分钟阅读时间
-            
-          </li>
-        
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="不同版本服务器间-ssh-免密码登录失败"><a class="toclink" href="../../discussions-25/">不同版本服务器间 SSH 免密码登录失败</a></h2>
-<p>今天从服务器 A（CentOS 7.3）配置 SSH 无密码登录服务器 B（CentOS Steam 9），发现执行以下常规操作后无法实现：
-</p><div class="highlight"><pre><span></span><code>$ ssh-keygen
-$ ssh-copy-id -i ~/.ssh/id_rsa.pub shenweiyan@66.xx.xx.xx  # ssh-copy-id user@rhel-9-server-IP
-$ ssh shenweiyan@66.xx.xx.xx
-</code></pre></div>
-<img alt="ssh-keygen-need-passwd" src="https://slab-1251708715.cos.ap-guangzhou.myqcloud.com/KGarden/2023/ssh-keygen-passwd.png"><p></p>
-
-    
-      <nav class="md-post__action">
-        <a href="../../discussions-25/">
-          继续阅读
-        </a>
-      </nav>
-    
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://gi.weiyan.tech/0000/logo/logo.webp" alt="Steven Shum">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2023-11-27 00:00:00+00:00">2023年11月27日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
-            
-              <a href="../../category/%E8%BD%AF%E4%BB%B6/" class="md-meta__link">软件</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              需要 3 分钟阅读时间
-            
-          </li>
-        
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="micromamba-安装与注意事项"><a class="toclink" href="../../discussions-24/">Micro/Mamba 安装与注意事项</a></h2>
-<p>记录一下 Micromamba/Mamba 安装的步骤和注意事项。</p>
-<h3 id="mamba-安装"><a class="toclink" href="../../discussions-24/#mamba-安装">Mamba 安装</a></h3>
-<p>Mamba 可以使用 Mambaforge 方法和已有 Mini/conda 的方式安装，官方推荐的是前面一种，即使用 Mambaforge 进行全新安装。</p>
-<h4 id="全新安装"><a class="toclink" href="../../discussions-24/#全新安装">全新安装</a></h4>
-<p>关于 mamba 的安装，官方推荐 <a href="https://mamba.readthedocs.io/en/latest/mamba-installation.html">Fresh install</a>，即全新安装。</p>
-<blockquote>
-<p>We recommend that you start with the <a href="https://github.com/conda-forge/miniforge#mambaforge">Mambaforge distribution</a>. Mambaforge comes with the popular conda-forge channel preconfigured, but you can modify the configuration to use any channel you like. Note that Anaconda channels are generally incompatible with conda-forge, so you should not mix them.      <br>
-我们建议您从 Mambaforge 发行版开始。 Mambaforge 预配置了流行的 conda-forge 通道，但您可以修改配置以使用您喜欢的任何通道。请注意，Anaconda 通道通常与 conda-forge 不兼容，因此您不应混合使用它们。</p>
-</blockquote>
-
-    
-      <nav class="md-post__action">
-        <a href="../../discussions-24/">
-          继续阅读
-        </a>
-      </nav>
-    
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://gi.weiyan.tech/0000/logo/logo.webp" alt="Steven Shum">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2023-11-21 00:00:00+00:00">2023年11月21日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
-            
-              <a href="../../category/%E7%94%9F%E4%BF%A1/" class="md-meta__link">生信</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              需要 1 分钟阅读时间
-            
-          </li>
-        
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="ncbi-api-使用"><a class="toclink" href="../../discussions-17/">NCBI API 使用</a></h2>
-<blockquote>
-<p>参考：https://www.ncbi.nlm.nih.gov/books/NBK25499/</p>
-</blockquote>
-<p>This chapter serves as a reference for all supported parameters for the E-utilities, along with accepted values and usage guidelines. This information is provided for each E-utility in sections below, and parameters and/or values specific to particular databases are discussed within each section. Most E-utilities have a set of parameters that are required for any call, in addition to several additional optional parameters that extend the tool’s functionality. These two sets of parameters are discussed separately in each section.</p>
-
-    
-      <nav class="md-post__action">
-        <a href="../../discussions-17/">
-          继续阅读
-        </a>
-      </nav>
-    
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://gi.weiyan.tech/0000/logo/logo.webp" alt="Steven Shum">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2023-11-02 00:00:00+00:00">2023年11月2日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
-            
-              <a href="../../category/%E8%BD%AF%E4%BB%B6/" class="md-meta__link">软件</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              需要 6 分钟阅读时间
-            
-          </li>
-        
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="python-中-tkinter-源码安装使用与中文乱码"><a class="toclink" href="../../discussions-12/">Python 中 tkinter 源码安装使用与中文乱码</a></h2>
-<p>主要是因为下面这两个原因，所以决定从源码编译安装去折腾一下 tkinter，以下是一些记录。</p>
-<h3 id="_tkinter-not-found"><a class="toclink" href="../../discussions-12/#_tkinter-not-found">_tkinter not found</a></h3>
-<p>Python 3 源码编译安装，执行 <code>make</code> 过程中提示 <code>_tkinter not found</code>，如下：
-</p><div class="highlight"><pre><span></span><code>$<span class="w"> </span>make
-......
-Python<span class="w"> </span>build<span class="w"> </span>finished<span class="w"> </span>successfully!
-The<span class="w"> </span>necessary<span class="w"> </span>bits<span class="w"> </span>to<span class="w"> </span>build<span class="w"> </span>these<span class="w"> </span>optional<span class="w"> </span>modules<span class="w"> </span>were<span class="w"> </span>not<span class="w"> </span>found:
-_tkinter<span class="w"> </span>
-</code></pre></div><p></p>
-
-    
-      <nav class="md-post__action">
-        <a href="../../discussions-12/">
-          继续阅读
-        </a>
-      </nav>
-    
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://gi.weiyan.tech/0000/logo/logo.webp" alt="Steven Shum">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2023-11-02 00:00:00+00:00">2023年11月2日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
-            
-              <a href="../../category/%E8%BD%AF%E4%BB%B6/" class="md-meta__link">软件</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              需要 10 分钟阅读时间
-            
-          </li>
-        
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="python3-源码安装"><a class="toclink" href="../../discussions-13/">Python3 源码安装</a></h2>
-<p>编程，作为生物信息学的一个基础性技能，是任何一个生信工程师都无法绕开话题。也许有些人还在纠结 Perl 和 Python 到底应该学习哪一个，但作为目前最火最流行的编程语言 Python 还是非常值得尝试的。它不但可以进行文本处理，在统计、网站、游戏、爬虫、数据可视化等方面也有非常强大的应用，比起曾经的 Perl 真的强大和全面很多，且比 Perl 更容易入手。不管从长远发展，还是短期需要，学会 Python，看懂 Perl (或者先学 &nbsp; Python，后学 Perl) 应该是每一个生信工程必备的基础技能之一。</p>
-<p>工欲善其事，必先利其器。关于 Python 安装教程在网上一搜一大把，但总感觉不够全面，尤其对于中间出现的一些问题的解决方法不尽如人意。鉴于此，本文基于 &nbsp;CentOS/RHEL Linux 对 Python 的源码编译安装进行了一下简单的总结，记录如下。</p>
-
-    
-      <nav class="md-post__action">
-        <a href="../../discussions-13/">
-          继续阅读
-        </a>
-      </nav>
-    
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://gi.weiyan.tech/0000/logo/logo.webp" alt="Steven Shum">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2023-10-23 00:00:00+00:00">2023年10月23日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
-            
-              <a href="../../category/%E8%BD%AF%E4%BB%B6/" class="md-meta__link">软件</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              需要 7 分钟阅读时间
-            
-          </li>
-        
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="webstack-hugo--一个静态响应式导航主题"><a class="toclink" href="../../discussions-10/">WebStack-Hugo | 一个静态响应式导航主题</a></h2>
-<blockquote>
-<p>Via：<a href="https://mp.weixin.qq.com/s/gVWGjxG9qd7qSyX3N8Zgag">我给自己做了一个导航网站</a> | <a href="https://github.com/bioitee">BioIT爱好者</a>    </p>
-</blockquote>
-<p><strong>📢 让更多人的人制作自己的导航网站。如果你觉得本主题对你有所帮助，欢迎请作者 <a href="https://gi.weiyan.tech/0000/img/donate.webp">喝杯咖啡</a> &gt;.&lt;</strong></p>
-<h3 id="主题开源地址"><a class="toclink" href="../../discussions-10/#主题开源地址">主题开源地址</a></h3>
-<p><a href="https://github.com/shenweiyan/WebStack-Hugo"><strong>GitHub</strong></a> | <a href="https://gitee.com/shenweiyan/WebStack-Hugo"><strong>Gitee</strong></a> | <a href="https://gitcode.com/shenweiyan/WebStack-Hugo"><strong>GitCode</strong></a></p>
-<h3 id="主题展示地址"><a class="toclink" href="../../discussions-10/#主题展示地址">主题展示地址</a></h3>
-<p><a href="https://np.pagex.top/"><strong>WebStack-Hugo 网址导航</strong></a> | <a href="https://hao.bioit.top/"><strong>生信网址导航</strong></a> </p>
-
-    
-      <nav class="md-post__action">
-        <a href="../../discussions-10/">
-          继续阅读
-        </a>
-      </nav>
-    
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://gi.weiyan.tech/0000/logo/logo.webp" alt="Steven Shum">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2023-10-23 00:00:00+00:00">2023年10月23日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
-            
-              <a href="../../category/%E8%BD%AF%E4%BB%B6/" class="md-meta__link">软件</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              需要 5 分钟阅读时间
-            
-          </li>
-        
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="个人域名跳转至语雀个人主页"><a class="toclink" href="../../discussions-8/">个人域名跳转至语雀个人主页</a></h2>
-<p>语雀的个人使用目前是不支持自定义域名的，虽然空间的使用可以自定义二级域名，如：<a href="https://weiyan.yuque.com/">weiyan.yuque.com</a>，但是空间知识库必须要先登录，不方便其他人查看，尤其是对于没有注册语雀的用户。</p>
-
-    
-      <nav class="md-post__action">
-        <a href="../../discussions-8/">
-          继续阅读
-        </a>
-      </nav>
-    
-    
-  </div>
-</article>
-      
-      
-        
-          
 
 
 
 <nav class="md-pagination">
   <a class="md-pagination__link" href="../../">1</a> <a class="md-pagination__link" href="../2/">2</a> <a class="md-pagination__link" href="../3/">3</a> <span class="md-pagination__current">4</span> <a class="md-pagination__link" href="../5/">5</a>
 </nav>
-        
-      
-    </div>
+    
+
   </div>
+</div>
+
 
           
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>

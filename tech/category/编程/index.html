@@ -2180,360 +2180,92 @@ var _hmt = _hmt || [];
             
           
           
-  <div class="md-content" data-md-component="content">
+
+<style>
+.headerlink { display: none !important; }
+.md-content__button { display: none !important; }
+.techblog .md-draft { font-size: 0.9em; margin-left: 0.4rem; }
+article.md-content__inner.md-typeset {margin: 0 0 1.2rem 0; padding-top: 0rem;}
+</style>
+
+<div class="md-content" data-md-component="content">
+  <div class="md-content__inner">
+
     
-    
-    <div class="md-content__inner" data-pagefind-body="">
-      <header class="md-typeset">
+
+      <link rel="stylesheet" href="/assets/css/tech.css">
+
+      <article class="md-content__inner md-typeset">
         <h1 id="编程">编程<a class="headerlink" href="#编程" title="Permanent link">¶</a></h1>
-      </header>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://gi.weiyan.tech/0000/logo/logo.webp" alt="Steven Shum">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2024-07-03 00:00:00+00:00">2024年7月3日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
+      </article>
+
+      <div class="md-typeset">
+        <div class="techblog">
+          <ul>
             
-              <a href="./" class="md-meta__link">编程</a></li>
-        
-        
-          
-          <li class="md-meta__item">
+            <li>
+              <a href="../../discussions-79/" data-date="2024年7月3日">
+                Python 陷阱之 strip、lstrip、rstrip 可以删除比预期更多的内容
+                
+              </a>
+            </li>
             
-              需要 2 分钟阅读时间
+            <li>
+              <a href="../../discussions-75/" data-date="2024年6月6日">
+                使用 Python 的 argparse 构建命令行界面
+                
+              </a>
+            </li>
             
-          </li>
-        
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="python-陷阱之-striplstriprstrip-可以删除比预期更多的内容"><a class="toclink" href="../../discussions-79/">Python 陷阱之 strip、lstrip、rstrip 可以删除比预期更多的内容</a></h2>
-<blockquote>
-<p>本文章内容来源于 《<a href="https://andrewwegner.com/python-gotcha-strip-functions-unexpected-behavior.html">Python Gotcha: strip, lstrip, rstrip can remove more than expected</a>》，由作者翻译，仅供个人学习使用，如有内容侵犯了你的权益，请联系管理员删除相关内容。</p>
-</blockquote>
-<h3 id="介绍"><a class="toclink" href="../../discussions-79/#介绍">介绍</a></h3>
-<p>作为一名软件工程师，你处理过不少脏字符串。删除用户输入中的前导或尾随空格可能是最常见的工作之一。</p>
-<p>在 Python 中，这是通过 <code>.strip()</code> 、 <code>.lstrip()</code> 或 <code>.rstrip()</code> 函数完成的，通常如下所示：
-</p><div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="s2">"     Andrew Wegner     "</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
-<span class="s1">'andrew wegner'</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="s2">"     Andrew Wegner     "</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">lstrip</span><span class="p">()</span>
-<span class="s1">'andrew wegner     '</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="s2">"     Andrew Wegner     "</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">rstrip</span><span class="p">()</span>
-<span class="s1">'     andrew wegner'</span>
-</code></pre></div><p></p>
+            <li>
+              <a href="../../discussions-61/" data-date="2024年3月21日">
+                Python 里面没 if 也能用 else
+                
+              </a>
+            </li>
+            
+            <li>
+              <a href="../../discussions-44/" data-date="2024年1月3日">
+                不要使用 requirements.txt
+                
+              </a>
+            </li>
+            
+            <li>
+              <a href="../../discussions-40/" data-date="2023年12月26日">
+                Pandas 处理 Excel 常用方法技巧
+                
+              </a>
+            </li>
+            
+            <li>
+              <a href="../../discussions-30/" data-date="2023年12月1日">
+                单行 Python 代码片段
+                
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+
 
     
-      <nav class="md-post__action">
-        <a href="../../discussions-79/">
-          继续阅读
-        </a>
-      </nav>
-    
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://gi.weiyan.tech/0000/logo/logo.webp" alt="Steven Shum">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2024-06-06 00:00:00+00:00">2024年6月6日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
-            
-              <a href="./" class="md-meta__link">编程</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              需要 22 分钟阅读时间
-            
-          </li>
-        
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="使用-python-的-argparse-构建命令行界面"><a class="toclink" href="../../discussions-75/">使用 Python 的 argparse 构建命令行界面</a></h2>
-<blockquote>
-<p>原文：<a href="https://realpython.com/command-line-interfaces-python-argparse/">Build Command-Line Interfaces With Python’s argparse</a>     </p>
-</blockquote>
-<p>命令行应用在普通用户空间中可能并不常见，但它们存在于开发、数据科学、系统管理和许多其他操作中。每个命令行应用都需要一个用户友好的命令行界面 （CLI），以便你可以与应用本身进行交互。在 Python 中，您可以使用标准库中的 <code>argparse</code> 模块创建功能齐全的 CLI。</p>
+
 
     
-      <nav class="md-post__action">
-        <a href="../../discussions-75/">
-          继续阅读
-        </a>
-      </nav>
-    
-    
-  </div>
-</article>
       
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://gi.weiyan.tech/0000/logo/logo.webp" alt="Steven Shum">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2024-03-21 00:00:00+00:00">2024年3月21日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
-            
-              <a href="./" class="md-meta__link">编程</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              需要 3 分钟阅读时间
-            
-          </li>
-        
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="python-里面没-if-也能用-else"><a class="toclink" href="../../discussions-61/">Python 里面没 if 也能用 else</a></h2>
-<blockquote>
-<p>这是来自于 <a href="https://twitter.com/YangZhou1993">Yang Zhou</a> 发表在 <a href="https://medium.com/techtofreedom/beyond-if-else-leveraging-pythons-versatile-else-statements-9ac260dac102">Medium</a> 的一篇文章 《<a href="https://medium.com/techtofreedom/beyond-if-else-leveraging-pythons-versatile-else-statements-9ac260dac102">Beyond If-Else: Leveraging Python’s Versatile “Else” Statements</a>》，作者觉得挺有意思的，拿过来简单翻译了一下在这里分享给大家。</p>
-</blockquote>
-
-    
-      <nav class="md-post__action">
-        <a href="../../discussions-61/">
-          继续阅读
-        </a>
-      </nav>
-    
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://gi.weiyan.tech/0000/logo/logo.webp" alt="Steven Shum">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2024-01-03 00:00:00+00:00">2024年1月3日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
-            
-              <a href="./" class="md-meta__link">编程</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              需要 4 分钟阅读时间
-            
-          </li>
-        
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="不要使用-requirementstxt"><a class="toclink" href="../../discussions-44/">不要使用 requirements.txt</a></h2>
-<blockquote>
-<p>作者：<a href="https://miikka.me/">Miikka Koskinen</a>     <br>
-编译：<a href="https://weiyan.cc">沈维燕</a>     <br>
-时间：原文发表于 2023-10-31     <br>
-原文：<a href="https://quanttype.net/posts/2023-10-31-do-not-use-requirements.txt.html">Do not use requirements.txt</a></p>
-</blockquote>
-<p>你是否在用 Python 开发后端服务？我有两条建议：</p>
-<ul>
-<li>不要使用 <code>pip</code> 和 <code>requirements.txt</code> 来管理 Python 依赖。它们缺乏一些应该内置的关键功能。</li>
-<li>改用 <a href="https://python-poetry.org/">Poetry</a>。</li>
-</ul>
-
-    
-      <nav class="md-post__action">
-        <a href="../../discussions-44/">
-          继续阅读
-        </a>
-      </nav>
-    
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://gi.weiyan.tech/0000/logo/logo.webp" alt="Steven Shum">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2023-12-26 00:00:00+00:00">2023年12月26日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
-            
-              <a href="./" class="md-meta__link">编程</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              需要 2 分钟阅读时间
-            
-          </li>
-        
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="pandas-处理-excel-常用方法技巧"><a class="toclink" href="../../discussions-40/">Pandas 处理 Excel 常用方法技巧</a></h2>
-<p>在使用 Pandas 前需要学习了解一下 Series 和 DataFrame 的基本数据结构和索引的相关概念，之后就可以练习基本的 Excel操作。Pandas 读取一个 Excel 文件后会将其转化为 DataFrame 对象，每一列或行就是一个 Series 对象。这里我们看下如何对一个 excel 进行读写，以及 Sheet、行列、表头处理的一些常用技巧。</p>
-<h3 id="读取-excel"><a class="toclink" href="../../discussions-40/#读取-excel">读取 Excel</a></h3>
-<p>如果您想读取 Excel 表格中的数据，可以使用 <code>read_excel()</code> 方法，其语法格式如下：</p>
-<div class="highlight"><pre><span></span><code>pd.read_excel(io, sheet_name=0, header=0, names=None, index_col=None,
-              usecols=None, squeeze=False,dtype=None, engine=None,
-              converters=None, true_values=None, false_values=None,
-              skiprows=None, nrows=None, na_values=None, parse_dates=False,
-              date_parser=None, thousands=None, comment=None, skipfooter=0,
-              convert_float=True, **kwds)
-</code></pre></div>
-
-    
-      <nav class="md-post__action">
-        <a href="../../discussions-40/">
-          继续阅读
-        </a>
-      </nav>
-    
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://gi.weiyan.tech/0000/logo/logo.webp" alt="Steven Shum">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2023-12-01 00:00:00+00:00">2023年12月1日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
-            
-              <a href="./" class="md-meta__link">编程</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              需要 1 分钟阅读时间
-            
-          </li>
-        
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="单行-python-代码片段"><a class="toclink" href="../../discussions-30/">单行 Python 代码片段</a></h2>
-<blockquote>
-<p>Via：https://muhammadraza.me/2023/python-oneliners</p>
-</blockquote>
-<p>我已经沉浸在 Python 编程世界大约三年了。在这段时间里，我开始欣赏这种多功能语言的优雅和强大。在这篇既有趣又具有教育意义的文章中，我将展示一系列单行 Python 代码片段。无论您是经验丰富的开发人员还是初学者，这些简洁的代码行都可以让您深入了解 Python 的简单性和有效性，它们展示一行代码如何完成在其他语言中可能需要几行代码才能完成的任务。</p>
-
-    
-      <nav class="md-post__action">
-        <a href="../../discussions-30/">
-          继续阅读
-        </a>
-      </nav>
-    
-    
-  </div>
-</article>
-      
-      
-        
-          
 
 
 
 <nav class="md-pagination">
   <span class="md-pagination__current">1</span>
 </nav>
-        
-      
-    </div>
+    
+
   </div>
+</div>
+
 
           
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>

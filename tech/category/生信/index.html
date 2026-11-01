@@ -2180,177 +2180,71 @@ var _hmt = _hmt || [];
             
           
           
-  <div class="md-content" data-md-component="content">
+
+<style>
+.headerlink { display: none !important; }
+.md-content__button { display: none !important; }
+.techblog .md-draft { font-size: 0.9em; margin-left: 0.4rem; }
+article.md-content__inner.md-typeset {margin: 0 0 1.2rem 0; padding-top: 0rem;}
+</style>
+
+<div class="md-content" data-md-component="content">
+  <div class="md-content__inner">
+
     
-    
-    <div class="md-content__inner" data-pagefind-body="">
-      <header class="md-typeset">
+
+      <link rel="stylesheet" href="/assets/css/tech.css">
+
+      <article class="md-content__inner md-typeset">
         <h1 id="生信">生信<a class="headerlink" href="#生信" title="Permanent link">¶</a></h1>
-      </header>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://gi.weiyan.tech/0000/logo/logo.webp" alt="Steven Shum">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2025-07-13 00:00:00+00:00">2025年7月13日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
+      </article>
+
+      <div class="md-typeset">
+        <div class="techblog">
+          <ul>
             
-              <a href="./" class="md-meta__link">生信</a></li>
-        
-        
-          
-          <li class="md-meta__item">
+            <li>
+              <a href="../../discussions-155/" data-date="2025年7月13日">
+                NCBI Blast 源码编译安装
+                
+              </a>
+            </li>
             
-              需要 3 分钟阅读时间
+            <li>
+              <a href="../../discussions-91/" data-date="2024年10月23日">
+                hisat2-build RAM 不足
+                
+              </a>
+            </li>
             
-          </li>
-        
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="ncbi-blast-源码编译安装"><a class="toclink" href="../../discussions-155/">NCBI Blast 源码编译安装</a></h2>
-<p>记录一下在老破旧服务器从源码编译安装 NCBI Blast 2.15.0+ 遇到的一些问题。</p>
+            <li>
+              <a href="../../discussions-17/" data-date="2023年11月21日">
+                NCBI API 使用
+                
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+
 
     
-      <nav class="md-post__action">
-        <a href="../../discussions-155/">
-          继续阅读
-        </a>
-      </nav>
-    
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://gi.weiyan.tech/0000/logo/logo.webp" alt="Steven Shum">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2024-10-23 00:00:00+00:00">2024年10月23日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
-            
-              <a href="./" class="md-meta__link">生信</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              需要 1 分钟阅读时间
-            
-          </li>
-        
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="hisat2-build-ram-不足"><a class="toclink" href="../../discussions-91/">hisat2-build RAM 不足</a></h2>
-<p>在 96G RAM 的节点跑 T2T-CHM13v2.0 的 HISAT2 index 时候，发现任务居然被系统 Killed 掉了。</p>
+
 
     
-      <nav class="md-post__action">
-        <a href="../../discussions-91/">
-          继续阅读
-        </a>
-      </nav>
-    
-    
-  </div>
-</article>
       
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://gi.weiyan.tech/0000/logo/logo.webp" alt="Steven Shum">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2023-11-21 00:00:00+00:00">2023年11月21日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
-            
-              <a href="./" class="md-meta__link">生信</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              需要 1 分钟阅读时间
-            
-          </li>
-        
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="ncbi-api-使用"><a class="toclink" href="../../discussions-17/">NCBI API 使用</a></h2>
-<blockquote>
-<p>参考：https://www.ncbi.nlm.nih.gov/books/NBK25499/</p>
-</blockquote>
-<p>This chapter serves as a reference for all supported parameters for the E-utilities, along with accepted values and usage guidelines. This information is provided for each E-utility in sections below, and parameters and/or values specific to particular databases are discussed within each section. Most E-utilities have a set of parameters that are required for any call, in addition to several additional optional parameters that extend the tool’s functionality. These two sets of parameters are discussed separately in each section.</p>
-
-    
-      <nav class="md-post__action">
-        <a href="../../discussions-17/">
-          继续阅读
-        </a>
-      </nav>
-    
-    
-  </div>
-</article>
-      
-      
-        
-          
 
 
 
 <nav class="md-pagination">
   <span class="md-pagination__current">1</span>
 </nav>
-        
-      
-    </div>
+    
+
   </div>
+</div>
+
 
           
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
