@@ -1,0 +1,72 @@
+{% extends "main.html" %}
+
+{% block container %}
+
+<style>
+.headerlink { display: none !important; }
+.md-content__button { display: none !important; }
+.techblog .md-draft { font-size: 0.9em; margin-left: 0.4rem; }
+article.md-content__inner.md-typeset {margin: 0 0 1.2rem 0; padding-top: 0rem;}
+</style>
+
+<div class="md-content" data-md-component="content">
+  <div class="md-content__inner">
+
+    {% if page.url[:5] == "tech/" %}
+
+      <link rel="stylesheet" href="/assets/css/tech.css">
+
+      <article class="md-content__inner md-typeset">
+        {{ page.content }}
+      </article>
+
+      <div class="md-typeset">
+        <div class="techblog">
+          <ul>
+            {% for post in posts %}
+            <li>
+              <a
+                href="{{ post.url | url }}"
+                data-date="{{ post.config.date.created | date }}"
+              >
+                {{ post.title }}
+                {% if post.config.draft %}
+                  <span class="md-draft">
+                    {{ lang.t("blog.draft") }}
+                  </span>
+                {% endif %}
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+
+
+    {% else %}
+
+      <article class="md-content__inner md-typeset">
+
+        {% include "partials/actions.html" %}
+
+        {{ page.content }}
+
+      </article>
+
+
+      {% for post in posts %}
+        {% include "partials/post.html" %}
+      {% endfor %}
+
+
+    {% endif %}
+
+
+    {% if pagination %}
+      {% include "partials/pagination.html" %}
+    {% endif %}
+
+  </div>
+</div>
+
+{% endblock %}

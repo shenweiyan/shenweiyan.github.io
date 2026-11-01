@@ -77,7 +77,12 @@ nav.md-tabs {
   margin-right: 0.5em; /* Add some space between the SVG icon and the text */
 }
 
-/*友情链接 grid cards*/
+/* 友情链接 grid cards */
 .md-typeset .grid.cards.flinks > ul > li {
   background:#fff;
 }	
+
+/* Blog 博文间距 */
+.md-post--excerpt {
+  margin-bottom: 1.5rem;
+}  
