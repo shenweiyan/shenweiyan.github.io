@@ -13,12 +13,12 @@
     <language>zh</language>
 
     
-    <pubDate>Sun, 01 Nov 2026 16:36:24 -0000</pubDate>
-    <lastBuildDate>Sun, 01 Nov 2026 16:36:24 -0000</lastBuildDate>
+    <pubDate>Mon, 02 Nov 2026 19:59:44 -0000</pubDate>
+    <lastBuildDate>Mon, 02 Nov 2026 19:59:44 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
-    <generator>MkDocs RSS plugin - v1.19.0</generator>
+    <generator>MkDocs RSS plugin - v1.20.0</generator>
 
     
     
@@ -36,7 +36,7 @@
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -95,7 +95,7 @@ GITHUB_TOKEN=&amp;lt;GH_TOKEN&amp;gt; npm run dev -- --host&lt;/code&gt;&lt;/p&g
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -138,7 +138,7 @@ GITHUB_TOKEN=&amp;lt;GH_TOKEN&amp;gt; npm run dev -- --host&lt;/code&gt;&lt;/p&g
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -175,7 +175,7 @@ GITHUB_TOKEN=&amp;lt;GH_TOKEN&amp;gt; npm run dev -- --host&lt;/code&gt;&lt;/p&g
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -219,7 +219,7 @@ GITHUB_TOKEN=&amp;lt;GH_TOKEN&amp;gt; npm run dev -- --host&lt;/code&gt;&lt;/p&g
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -257,7 +257,7 @@ GITHUB_TOKEN=&amp;lt;GH_TOKEN&amp;gt; npm run dev -- --host&lt;/code&gt;&lt;/p&g
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -311,7 +311,7 @@ GITHUB_TOKEN=&amp;lt;GH_TOKEN&amp;gt; npm run dev -- --host&lt;/code&gt;&lt;/p&g
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -353,7 +353,7 @@ GITHUB_TOKEN=&amp;lt;GH_TOKEN&amp;gt; npm run dev -- --host&lt;/code&gt;&lt;/p&g
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -412,7 +412,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;atomcode
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -457,7 +457,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;atomcode
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -561,7 +561,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;atomcode
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -605,7 +605,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;atomcode
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -744,7 +744,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;nm&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -784,7 +784,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;nm&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -823,7 +823,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;nm&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -879,7 +879,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;nm&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -1044,7 +1044,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;nm&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -1110,7 +1110,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;nm&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -1146,7 +1146,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;nm&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -1219,7 +1219,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;nm&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -1355,7 +1355,7 @@ PACKAGES&lt;span class=&#34;w&#34;&gt;                                &lt;/span&
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -1508,7 +1508,7 @@ docker&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;pull&lt;span class=&#34;w&#34;
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -1575,7 +1575,7 @@ docker&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;pull&lt;span class=&#34;w&#34;
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -1655,7 +1655,7 @@ docker&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;pull&lt;span class=&#34;w&#34;
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -1694,7 +1694,7 @@ docker&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;pull&lt;span class=&#34;w&#34;
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -1752,7 +1752,7 @@ docker&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;pull&lt;span class=&#34;w&#34;
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -1818,7 +1818,7 @@ docker&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;pull&lt;span class=&#34;w&#34;
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -1923,7 +1923,7 @@ rm&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;-r&lt;span class=&#34;w&#34;&gt; &
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -1994,7 +1994,7 @@ rm&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;-r&lt;span class=&#34;w&#34;&gt; &
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -2081,7 +2081,7 @@ rm&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;-r&lt;span class=&#34;w&#34;&gt; &
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -2129,7 +2129,7 @@ rm&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;-r&lt;span class=&#34;w&#34;&gt; &
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -2168,7 +2168,7 @@ rm&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;-r&lt;span class=&#34;w&#34;&gt; &
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -2202,7 +2202,7 @@ rm&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;-r&lt;span class=&#34;w&#34;&gt; &
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -2237,7 +2237,7 @@ rm&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;-r&lt;span class=&#34;w&#34;&gt; &
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -2288,7 +2288,7 @@ rm&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;-r&lt;span class=&#34;w&#34;&gt; &
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -2323,7 +2323,7 @@ rm&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;-r&lt;span class=&#34;w&#34;&gt; &
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -2374,7 +2374,7 @@ rm&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;-r&lt;span class=&#34;w&#34;&gt; &
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -2416,7 +2416,7 @@ rm&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;-r&lt;span class=&#34;w&#34;&gt; &
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -2463,7 +2463,7 @@ rm&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;-r&lt;span class=&#34;w&#34;&gt; &
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -2520,7 +2520,7 @@ rm&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;-r&lt;span class=&#34;w&#34;&gt; &
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -2555,7 +2555,7 @@ rm&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;-r&lt;span class=&#34;w&#34;&gt; &
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -2609,7 +2609,7 @@ rm&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;-r&lt;span class=&#34;w&#34;&gt; &
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -2666,7 +2666,7 @@ rm&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;-r&lt;span class=&#34;w&#34;&gt; &
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -2709,7 +2709,7 @@ rm&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;-r&lt;span class=&#34;w&#34;&gt; &
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -2755,7 +2755,7 @@ rm&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;-r&lt;span class=&#34;w&#34;&gt; &
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -2901,7 +2901,7 @@ make:&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;***&lt;span class=&#34;w&#34;&g
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -2937,7 +2937,7 @@ make:&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;***&lt;span class=&#34;w&#34;&g
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -2979,7 +2979,7 @@ make:&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;***&lt;span class=&#34;w&#34;&g
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -3060,7 +3060,7 @@ make:&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;***&lt;span class=&#34;w&#34;&g
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -3109,7 +3109,7 @@ make:&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;***&lt;span class=&#34;w&#34;&g
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -3165,7 +3165,7 @@ make:&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;***&lt;span class=&#34;w&#34;&g
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -3208,7 +3208,7 @@ make:&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;***&lt;span class=&#34;w&#34;&g
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -3272,7 +3272,7 @@ make:&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;***&lt;span class=&#34;w&#34;&g
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -3349,7 +3349,7 @@ make:&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;***&lt;span class=&#34;w&#34;&g
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -3398,7 +3398,7 @@ make:&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;***&lt;span class=&#34;w&#34;&g
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -3444,7 +3444,7 @@ make:&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;***&lt;span class=&#34;w&#34;&g
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -3487,7 +3487,7 @@ ImportError:&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;libpython3.6m.so.1.0:&lt
       
       
         
-      <author>shenweiyan</author>
+      <dc:creator>shenweiyan</dc:creator>
         
       
       
@@ -3539,7 +3539,7 @@ ImportError:&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;libpython3.6m.so.1.0:&lt
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -3586,7 +3586,7 @@ git&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;config&lt;span class=&#34;w&#34;&
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -3640,7 +3640,7 @@ git&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;config&lt;span class=&#34;w&#34;&
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -3694,7 +3694,7 @@ git&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;config&lt;span class=&#34;w&#34;&
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -3740,7 +3740,7 @@ git&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;config&lt;span class=&#34;w&#34;&
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -3853,7 +3853,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;/bioinfo/software/mylib/libpng-1.6.
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -4002,7 +4002,7 @@ patch_directory = qhull-8.0.2
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -4049,7 +4049,7 @@ patch_directory = qhull-8.0.2
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -4089,7 +4089,7 @@ patch_directory = qhull-8.0.2
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -4132,7 +4132,7 @@ patch_directory = qhull-8.0.2
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -4222,7 +4222,7 @@ patch_directory = qhull-8.0.2
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -4271,7 +4271,7 @@ patch_directory = qhull-8.0.2
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -4311,7 +4311,7 @@ patch_directory = qhull-8.0.2
       
       
         
-      <author>shenweiyan</author>
+      <dc:creator>shenweiyan</dc:creator>
         
       
       
@@ -4457,7 +4457,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;make&lt;span class=&#34;w&#34;&gt; 
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -4501,7 +4501,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;make&lt;span class=&#34;w&#34;&gt; 
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -4540,7 +4540,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;make&lt;span class=&#34;w&#34;&gt; 
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -4691,7 +4691,7 @@ make&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;install
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -4831,7 +4831,7 @@ pg_ctl:&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;server&lt;span class=&#34;w&#
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -4885,7 +4885,7 @@ vi&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;~/.R/Makevars
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -4921,7 +4921,7 @@ vi&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;~/.R/Makevars
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -4969,7 +4969,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;git&lt;span class=&#34;w&#34;&gt; &
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -5067,7 +5067,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;git&lt;span class=&#34;w&#34;&gt; &
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -5105,7 +5105,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;git&lt;span class=&#34;w&#34;&gt; &
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -5139,7 +5139,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;git&lt;span class=&#34;w&#34;&gt; &
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -5221,7 +5221,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;git&lt;span class=&#34;w&#34;&gt; &
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -5255,7 +5255,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;git&lt;span class=&#34;w&#34;&gt; &
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -5292,7 +5292,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;git&lt;span class=&#34;w&#34;&gt; &
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -5328,7 +5328,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;git&lt;span class=&#34;w&#34;&gt; &
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -5944,7 +5944,7 @@ abbreviate.py:&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;error:&lt;span class=&
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -5997,7 +5997,7 @@ abbreviate.py:&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;error:&lt;span class=&
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -6035,7 +6035,7 @@ abbreviate.py:&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;error:&lt;span class=&
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -6071,7 +6071,7 @@ abbreviate.py:&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;error:&lt;span class=&
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -6142,7 +6142,7 @@ Written&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;by&lt;span class=&#34;w&#34;&
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -6189,7 +6189,7 @@ Written&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;by&lt;span class=&#34;w&#34;&
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -6230,7 +6230,7 @@ Written&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;by&lt;span class=&#34;w&#34;&
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -6282,7 +6282,7 @@ Written&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;by&lt;span class=&#34;w&#34;&
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -6321,7 +6321,7 @@ Written&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;by&lt;span class=&#34;w&#34;&
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -6367,7 +6367,7 @@ Written&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;by&lt;span class=&#34;w&#34;&
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -6424,7 +6424,7 @@ nohup&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;python3&lt;span class=&#34;w&#3
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -6460,7 +6460,7 @@ nohup&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;python3&lt;span class=&#34;w&#3
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -6510,7 +6510,7 @@ nohup&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;python3&lt;span class=&#34;w&#3
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -6546,7 +6546,7 @@ nohup&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;python3&lt;span class=&#34;w&#3
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -6668,7 +6668,7 @@ nohup&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;python3&lt;span class=&#34;w&#3
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -6801,7 +6801,7 @@ newgrp&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;docker&lt;span class=&#34;w&#3
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -6836,7 +6836,7 @@ newgrp&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;docker&lt;span class=&#34;w&#3
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -6873,7 +6873,7 @@ newgrp&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;docker&lt;span class=&#34;w&#3
       
       
         
-      <author>shenweiyan</author>
+      <dc:creator>shenweiyan</dc:creator>
         
       
       
@@ -7583,7 +7583,7 @@ This&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;tool&lt;span class=&#34;w&#34;&g
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -7629,7 +7629,7 @@ This&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;tool&lt;span class=&#34;w&#34;&g
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -7673,7 +7673,7 @@ This&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;tool&lt;span class=&#34;w&#34;&g
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -7713,7 +7713,7 @@ This&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;tool&lt;span class=&#34;w&#34;&g
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -7807,7 +7807,7 @@ template: home.html
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -7845,7 +7845,7 @@ template: home.html
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -7913,7 +7913,7 @@ template: home.html
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -7964,7 +7964,7 @@ template: home.html
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -8047,7 +8047,7 @@ template: home.html
       
       
         
-      <author>shenweiyan</author>
+      <dc:creator>shenweiyan</dc:creator>
         
       
       
@@ -8117,7 +8117,7 @@ template: home.html
       
       
         
-      <author>shenweiyan</author>
+      <dc:creator>shenweiyan</dc:creator>
         
       
       
@@ -8153,7 +8153,7 @@ template: home.html
       
       
         
-      <author>shenweiyan</author>
+      <dc:creator>shenweiyan</dc:creator>
         
       
       
@@ -8268,7 +8268,7 @@ The&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;HTML&lt;span class=&#34;w&#34;&gt
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -8344,7 +8344,7 @@ The&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;HTML&lt;span class=&#34;w&#34;&gt
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -8380,7 +8380,7 @@ The&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;HTML&lt;span class=&#34;w&#34;&gt
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -8418,7 +8418,7 @@ The&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;HTML&lt;span class=&#34;w&#34;&gt
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -8564,7 +8564,7 @@ The&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;HTML&lt;span class=&#34;w&#34;&gt
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -8699,7 +8699,7 @@ The&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;HTML&lt;span class=&#34;w&#34;&gt
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -8779,7 +8779,7 @@ jieba
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -8848,7 +8848,7 @@ jieba
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -8903,7 +8903,7 @@ jieba
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -8981,7 +8981,7 @@ jieba
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -9029,7 +9029,7 @@ jieba
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -9172,7 +9172,7 @@ jieba
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -9221,7 +9221,7 @@ jieba
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -9263,7 +9263,7 @@ jieba
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -9319,7 +9319,7 @@ jieba
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -9421,7 +9421,7 @@ jieba
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -9525,7 +9525,7 @@ OpenSSL 3.0.10 1 Aug 2023
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -9624,7 +9624,7 @@ $ ssh shenweiyan@66.xx.xx.xx  # ssh -i id_ecdsa shenweiyan@66.xx.xx.xx
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -9749,7 +9749,7 @@ micromamba config set channel_priority strict
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -9958,7 +9958,7 @@ micromamba config set channel_priority strict
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -10012,7 +10012,7 @@ V2EX：&lt;a href=&#34;https://www.v2ex.com/t/910777&#34;&gt;https://www.v2ex.co
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -10125,7 +10125,7 @@ V2EX：&lt;a href=&#34;https://www.v2ex.com/t/910777&#34;&gt;https://www.v2ex.co
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -10164,7 +10164,7 @@ V2EX：&lt;a href=&#34;https://www.v2ex.com/t/910777&#34;&gt;https://www.v2ex.co
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -10207,7 +10207,7 @@ V2EX：&lt;a href=&#34;https://www.v2ex.com/t/910777&#34;&gt;https://www.v2ex.co
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -10340,7 +10340,7 @@ V2EX：&lt;a href=&#34;https://www.v2ex.com/t/910777&#34;&gt;https://www.v2ex.co
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -10377,7 +10377,7 @@ V2EX：&lt;a href=&#34;https://www.v2ex.com/t/910777&#34;&gt;https://www.v2ex.co
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -10426,7 +10426,7 @@ V2EX：&lt;a href=&#34;https://www.v2ex.com/t/910777&#34;&gt;https://www.v2ex.co
       
       
         
-      <author>shenweiyan</author>
+      <dc:creator>shenweiyan</dc:creator>
         
       
       
@@ -10469,7 +10469,7 @@ V2EX：&lt;a href=&#34;https://www.v2ex.com/t/910777&#34;&gt;https://www.v2ex.co
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -10521,7 +10521,7 @@ V2EX：&lt;a href=&#34;https://www.v2ex.com/t/910777&#34;&gt;https://www.v2ex.co
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -10768,7 +10768,7 @@ python3 -m tkinter   # python 3
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -11262,7 +11262,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;make&lt;span class=&#34;w&#34;&gt; 
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -11312,7 +11312,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;make&lt;span class=&#34;w&#34;&gt; 
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -11618,7 +11618,7 @@ hugo&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;-D
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -11822,7 +11822,7 @@ caroline.dnspod.net
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -11946,7 +11946,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -12033,7 +12033,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -12069,7 +12069,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>shenweiyan</author>
+      <dc:creator>shenweiyan</dc:creator>
         
       
       
@@ -12189,7 +12189,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>沈维燕</author>
+      <dc:creator>沈维燕</dc:creator>
         
       
       
@@ -12212,7 +12212,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>章鱼猫先生</author>
+      <dc:creator>章鱼猫先生</dc:creator>
         
       
       
@@ -12232,7 +12232,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -12344,7 +12344,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -12400,7 +12400,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -12615,7 +12615,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -12665,7 +12665,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -12826,7 +12826,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -12875,7 +12875,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -12920,7 +12920,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -12959,7 +12959,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -13016,7 +13016,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -13069,7 +13069,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -13119,7 +13119,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -13178,7 +13178,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -13219,7 +13219,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -13257,7 +13257,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -13332,7 +13332,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -13410,7 +13410,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -13454,7 +13454,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -13498,7 +13498,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -13545,7 +13545,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -13581,7 +13581,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -13632,7 +13632,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -13670,7 +13670,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -13742,7 +13742,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -13795,7 +13795,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -13873,7 +13873,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -13911,7 +13911,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -13956,7 +13956,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -13995,7 +13995,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -14057,7 +14057,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -14129,7 +14129,7 @@ $&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ls&lt;span class=&#34;w&#34;&gt; &l
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -14192,7 +14192,7 @@ Obsidian 也是书本式的文章结构，这一点跟语雀是一致的，但�
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -14232,7 +14232,7 @@ Obsidian 也是书本式的文章结构，这一点跟语雀是一致的，但�
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -14295,7 +14295,7 @@ Obsidian 也是书本式的文章结构，这一点跟语雀是一致的，但�
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -14398,7 +14398,7 @@ Obsidian 也是书本式的文章结构，这一点跟语雀是一致的，但�
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -14447,7 +14447,7 @@ Obsidian 也是书本式的文章结构，这一点跟语雀是一致的，但�
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
@@ -14491,7 +14491,7 @@ Obsidian 也是书本式的文章结构，这一点跟语雀是一致的，但�
       
       
         
-      <author>Steven Shum</author>
+      <dc:creator>Steven Shum</dc:creator>
         
       
       
