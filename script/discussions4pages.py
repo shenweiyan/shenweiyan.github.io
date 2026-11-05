@@ -94,9 +94,11 @@ def __main__():
                     flinks_dir.mkdir(parents=True, exist_ok=True)
                 f_metadata = ( f'---\n'
                                f'title: 友情链接\n'
+                               f'discussion_number: {str(discussion_number)}\n'
                                f'author: [shenweiyan]\n'
                                f'date: {discussion_created}\n'
                                f'updated: {discussion_updated}\n'
+                               f'comments: true\n'
                                f'---\n')
                 flinks_contents1, flinks_contents2 = discussion_body.split('<!-- flinks-valid -->')
                 lines = [line.strip() for line in flinks_contents2.split('\n') if line.strip() and not line.startswith('#')]
@@ -121,7 +123,7 @@ def __main__():
                     FMD.write(f_metadata)
                     FMD.write(f"{css}\n")
                     FMD.write(flinks_contents1 + f'<div class="grid cards" markdown>\n\n' + flinks_contents + f'</div>')
-                    FMD.write(comments)
+                    #FMD.write(comments)
 
             elif int(discussion_number) == 16:
                 #留言
@@ -131,14 +133,16 @@ def __main__():
                     message_dir.mkdir(parents=True, exist_ok=True)
                 m_metadata = ( f'---\n'
                                f'title: 给作者留言\n'
+                               f'discussion_number: {str(discussion_number)}\n'
                                f'author: [shenweiyan]\n'
                                f'date: {discussion_created}\n'
                                f'updated: {discussion_updated}\n'
+                               f'comments: true\n'
                                f'---\n\n')
                 with open(message_md, "w") as MMD:
                     MMD.write(m_metadata)
                     MMD.write(discussion_body)
-                    MMD.write(comments)
+                    #MMD.write(comments)
             
             elif int(discussion_number) == 4:
                 #关于
@@ -148,27 +152,31 @@ def __main__():
                     readme_dir.mkdir(parents=True, exist_ok=True)
                 r_metadata = ( f'---\n'
                                f'title: 作者与站点\n'
+                               f'discussion_number: {str(discussion_number)}\n'
                                f'author: [shenweiyan]\n'
                                f'date: {discussion_created}\n'
                                f'updated: {discussion_updated}\n'
+                               f'comments: true\n'
                                f'---\n\n')
                 with open(readme_md, "w") as RMD:
                     RMD.write(r_metadata)
                     RMD.write(discussion_body)
-                    RMD.write(comments)
+                    #RMD.write(comments)
             elif int(discussion_number) == 45:
                 #更新记录
                 changelogs_md = Path(outputDir).joinpath('readme/changelogs.md')
                 c_metadata = ( f'---\n'
                                f'title: 更新记录\n'
+                               f'discussion_number: {str(discussion_number)}\n'
                                f'author: [shenweiyan]\n'
                                f'date: {discussion_created}\n'
                                f'updated: {discussion_updated}\n'
+                               f'comments: true\n'
                                f'---\n\n')
-                with open(changelogs_md, "w") as LogMD:
-                    LogMD.write(c_metadata)
-                    LogMD.write(discussion_body)
-                    LogMD.write(comments)
+                with open(changelogs_md, "w") as LMD:
+                    LMD.write(c_metadata)
+                    LMD.write(discussion_body)
+                    LMD.write(comments)
             else:
                 continue
 
