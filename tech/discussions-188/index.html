@@ -71,15 +71,15 @@
     
       <link rel="stylesheet" href="../../assets/document_dates/tippy/shift-away.css">
     
-      <link rel="stylesheet" href="../../assets/document_dates/tippy/backdrop.css">
-    
       <link rel="stylesheet" href="../../assets/document_dates/tippy/tippy.css">
+    
+      <link rel="stylesheet" href="../../assets/document_dates/tippy/material.css">
+    
+      <link rel="stylesheet" href="../../assets/document_dates/tippy/backdrop.css">
     
       <link rel="stylesheet" href="../../assets/document_dates/tippy/scale.css">
     
       <link rel="stylesheet" href="../../assets/document_dates/tippy/light.css">
-    
-      <link rel="stylesheet" href="../../assets/document_dates/tippy/material.css">
     
       <link rel="stylesheet" href="../../assets/document_dates/core/core.css">
     
@@ -2427,8 +2427,6 @@ $<span class="w"> </span>nm<span class="w"> </span>-D<span class="w"> </span>/us
 <li><a href="https://github.com/scikit-learn/scikit-learn/issues/26858">Cython compilation error with Cython&gt;=3 and scikit-learn&lt;1.2 - scikit-learn/scikit-learn#26858</a></li>
 <li><a href="https://docs.scipy.org/doc/scipy/building/blas_lapack.html">BLAS and LAPACK — SciPy v1.17.0 Manual</a> </li>
 </ul>
-<script src="https://giscus.app/client.js" data-repo="shenweiyan/shenweiyan.github.io" data-repo-id="R_kgDOKgxWlg" data-mapping="number" data-term="188" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="light" data-lang="zh-CN" crossorigin="anonymous" async="">
-</script>
 
 
 
@@ -2445,6 +2443,70 @@ $<span class="w"> </span>nm<span class="w"> </span>-D<span class="w"> </span>/us
 
   
 
+
+
+
+  
+  <style>
+  .divider {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin: 1.25rem 0 1rem;
+      font-family: 'Orbitron', monospace;
+      font-size: 80%;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+  }
+  .divider {
+    &::before, &::after {
+        content: '';
+        flex: 1;
+        height: 0.5px;
+        background: #2a2a2a;
+    }	
+  }
+  </style>
+  <div class="divider">
+    <p id="__comments">欢迎留言评论</p>
+  </div>
+  <script src="https://giscus.app/client.js" data-repo="shenweiyan/shenweiyan.github.io" data-repo-id="R_kgDOKgxWlg" data-mapping="number" data-term="188" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="preferred_color_scheme" data-lang="zh-CN" crossorigin="anonymous" async="">
+  </script>
+  <!-- Synchronize Giscus theme with palette -->
+  <script>
+    var giscus = document.querySelector("script[src*=giscus]")
+
+    // Set palette on initial load
+    var palette = __md_get("__palette")
+    if (palette && typeof palette.color === "object") {
+      var theme = palette.color.scheme === "slate"
+        ? "transparent_dark"
+        : "light"
+
+      // Instruct Giscus to set theme
+      giscus.setAttribute("data-theme", theme) 
+    }
+
+    // Register event handlers after documented loaded
+    document.addEventListener("DOMContentLoaded", function() {
+      var ref = document.querySelector("[data-md-component=palette]")
+      ref.addEventListener("change", function() {
+        var palette = __md_get("__palette")
+        if (palette && typeof palette.color === "object") {
+          var theme = palette.color.scheme === "slate"
+            ? "transparent_dark"
+            : "light"
+
+          // Instruct Giscus to change theme
+          var frame = document.querySelector(".giscus-frame")
+          frame.contentWindow.postMessage(
+            { giscus: { setConfig: { theme } } },
+            "https://giscus.app"
+          )
+        }
+      })
+    })
+  </script>
 
 
       
@@ -2647,4 +2709,4 @@ $<span class="w"> </span>nm<span class="w"> </span>-D<span class="w"> </span>/us
   
 <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
 document$.subscribe(()=>{ lightbox.reload(); });
-</script></body></html>
+</script></body></html><!--h2 id="__comments">评论</h2-->

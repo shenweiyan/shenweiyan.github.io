@@ -71,15 +71,15 @@
     
       <link rel="stylesheet" href="../../assets/document_dates/tippy/shift-away.css">
     
-      <link rel="stylesheet" href="../../assets/document_dates/tippy/backdrop.css">
-    
       <link rel="stylesheet" href="../../assets/document_dates/tippy/tippy.css">
+    
+      <link rel="stylesheet" href="../../assets/document_dates/tippy/material.css">
+    
+      <link rel="stylesheet" href="../../assets/document_dates/tippy/backdrop.css">
     
       <link rel="stylesheet" href="../../assets/document_dates/tippy/scale.css">
     
       <link rel="stylesheet" href="../../assets/document_dates/tippy/light.css">
-    
-      <link rel="stylesheet" href="../../assets/document_dates/tippy/material.css">
     
       <link rel="stylesheet" href="../../assets/document_dates/core/core.css">
     
@@ -2284,8 +2284,6 @@ var _hmt = _hmt || [];
 <p>说一说腾讯云的 <a href="https://webify.cloudbase.net/">Webbify</a>。今天 (2024年4月15) 上去想要部署一个新的站点，居然发现以前的 <strong>“按量付费”</strong> 计费模式已经消失，取而代之的是一个每月至少 15 块的购买时长模式。作为一个 2021 年就不再更新的产品，这样的收费模式真是让人瞬间欲望大减。
 <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://static.weiyan.tech/2024/04/webify-price-15-pre-month.webp" data-desc-position="bottom"><img alt="webify-price-15-pre-month.webp" src="https://static.weiyan.tech/2024/04/webify-price-15-pre-month.webp"></a></p>
 <p>回过头来看一看国外的 <a href="https://app.netlify.com/">Netlify</a>、<a href="https://vercel.com/">Vercel</a>、<a href="https://www.cloudflare-cn.com/developer-platform/pages/">Cloudflare Pages</a>，甚至是 GitHub Pages，再看一下国内的这些平台，真是一言难尽，除了先培养用户再收割，好像也没剩下什么了。</p>
-<script src="https://giscus.app/client.js" data-repo="shenweiyan/shenweiyan.github.io" data-repo-id="R_kgDOKgxWlg" data-mapping="number" data-term="67" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="light" data-lang="zh-CN" crossorigin="anonymous" async="">
-</script>
 
 
 
@@ -2302,6 +2300,70 @@ var _hmt = _hmt || [];
 
   
 
+
+
+
+  
+  <style>
+  .divider {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin: 1.25rem 0 1rem;
+      font-family: 'Orbitron', monospace;
+      font-size: 80%;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+  }
+  .divider {
+    &::before, &::after {
+        content: '';
+        flex: 1;
+        height: 0.5px;
+        background: #2a2a2a;
+    }	
+  }
+  </style>
+  <div class="divider">
+    <p id="__comments">欢迎留言评论</p>
+  </div>
+  <script src="https://giscus.app/client.js" data-repo="shenweiyan/shenweiyan.github.io" data-repo-id="R_kgDOKgxWlg" data-mapping="number" data-term="67" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="preferred_color_scheme" data-lang="zh-CN" crossorigin="anonymous" async="">
+  </script>
+  <!-- Synchronize Giscus theme with palette -->
+  <script>
+    var giscus = document.querySelector("script[src*=giscus]")
+
+    // Set palette on initial load
+    var palette = __md_get("__palette")
+    if (palette && typeof palette.color === "object") {
+      var theme = palette.color.scheme === "slate"
+        ? "transparent_dark"
+        : "light"
+
+      // Instruct Giscus to set theme
+      giscus.setAttribute("data-theme", theme) 
+    }
+
+    // Register event handlers after documented loaded
+    document.addEventListener("DOMContentLoaded", function() {
+      var ref = document.querySelector("[data-md-component=palette]")
+      ref.addEventListener("change", function() {
+        var palette = __md_get("__palette")
+        if (palette && typeof palette.color === "object") {
+          var theme = palette.color.scheme === "slate"
+            ? "transparent_dark"
+            : "light"
+
+          // Instruct Giscus to change theme
+          var frame = document.querySelector(".giscus-frame")
+          frame.contentWindow.postMessage(
+            { giscus: { setConfig: { theme } } },
+            "https://giscus.app"
+          )
+        }
+      })
+    })
+  </script>
 
 
       
@@ -2504,4 +2566,4 @@ var _hmt = _hmt || [];
   
 <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
 document$.subscribe(()=>{ lightbox.reload(); });
-</script></body></html>
+</script></body></html><!--h2 id="__comments">评论</h2-->

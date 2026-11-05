@@ -71,15 +71,15 @@
     
       <link rel="stylesheet" href="../../assets/document_dates/tippy/shift-away.css">
     
-      <link rel="stylesheet" href="../../assets/document_dates/tippy/backdrop.css">
-    
       <link rel="stylesheet" href="../../assets/document_dates/tippy/tippy.css">
+    
+      <link rel="stylesheet" href="../../assets/document_dates/tippy/material.css">
+    
+      <link rel="stylesheet" href="../../assets/document_dates/tippy/backdrop.css">
     
       <link rel="stylesheet" href="../../assets/document_dates/tippy/scale.css">
     
       <link rel="stylesheet" href="../../assets/document_dates/tippy/light.css">
-    
-      <link rel="stylesheet" href="../../assets/document_dates/tippy/material.css">
     
       <link rel="stylesheet" href="../../assets/document_dates/core/core.css">
     
@@ -2283,8 +2283,6 @@ var _hmt = _hmt || [];
 <p>一亩三分地内，如果真的动了你的奶酪，如果在你看来这就是广告，在没有任何沟通的情况下直接踢人，个人觉得这是极其野蛮的做法。</p>
 <p>现在的公众号都不容易，尤其是个人运营的公众号。奔着分享和交流学习的初心，内容至上，应该才是正道。</p>
 <p>今天在某交流群分享了一篇转载的 R 语言文章，没有任何沟通情况下直接被踢，有点想法，唠叨几句。</p>
-<script src="https://giscus.app/client.js" data-repo="shenweiyan/shenweiyan.github.io" data-repo-id="R_kgDOKgxWlg" data-mapping="number" data-term="137" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="light" data-lang="zh-CN" crossorigin="anonymous" async="">
-</script>
 
 
 
@@ -2312,6 +2310,70 @@ var _hmt = _hmt || [];
 
   
 
+
+
+
+  <!--h2 id="__comments">评论</h2-->
+  <style>
+  .divider {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin: 1.25rem 0 1rem;
+      font-family: 'Orbitron', monospace;
+      font-size: 80%;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+  }
+  .divider {
+    &::before, &::after {
+        content: '';
+        flex: 1;
+        height: 0.5px;
+        background: #2a2a2a;
+    }	
+  }
+  </style>
+  <div class="divider">
+    <p id="__comments">欢迎留言评论</p>
+  </div>
+  <script src="https://giscus.app/client.js" data-repo="shenweiyan/shenweiyan.github.io" data-repo-id="R_kgDOKgxWlg" data-mapping="number" data-term="137" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="preferred_color_scheme" data-lang="zh-CN" crossorigin="anonymous" async="">
+  </script>
+  <!-- Synchronize Giscus theme with palette -->
+  <script>
+    var giscus = document.querySelector("script[src*=giscus]")
+
+    // Set palette on initial load
+    var palette = __md_get("__palette")
+    if (palette && typeof palette.color === "object") {
+      var theme = palette.color.scheme === "slate"
+        ? "transparent_dark"
+        : "light"
+
+      // Instruct Giscus to set theme
+      giscus.setAttribute("data-theme", theme) 
+    }
+
+    // Register event handlers after documented loaded
+    document.addEventListener("DOMContentLoaded", function() {
+      var ref = document.querySelector("[data-md-component=palette]")
+      ref.addEventListener("change", function() {
+        var palette = __md_get("__palette")
+        if (palette && typeof palette.color === "object") {
+          var theme = palette.color.scheme === "slate"
+            ? "transparent_dark"
+            : "light"
+
+          // Instruct Giscus to change theme
+          var frame = document.querySelector(".giscus-frame")
+          frame.contentWindow.postMessage(
+            { giscus: { setConfig: { theme } } },
+            "https://giscus.app"
+          )
+        }
+      })
+    })
+  </script>
 
 
       

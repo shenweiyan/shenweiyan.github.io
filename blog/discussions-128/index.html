@@ -71,15 +71,15 @@
     
       <link rel="stylesheet" href="../../assets/document_dates/tippy/shift-away.css">
     
-      <link rel="stylesheet" href="../../assets/document_dates/tippy/backdrop.css">
-    
       <link rel="stylesheet" href="../../assets/document_dates/tippy/tippy.css">
+    
+      <link rel="stylesheet" href="../../assets/document_dates/tippy/material.css">
+    
+      <link rel="stylesheet" href="../../assets/document_dates/tippy/backdrop.css">
     
       <link rel="stylesheet" href="../../assets/document_dates/tippy/scale.css">
     
       <link rel="stylesheet" href="../../assets/document_dates/tippy/light.css">
-    
-      <link rel="stylesheet" href="../../assets/document_dates/tippy/material.css">
     
       <link rel="stylesheet" href="../../assets/document_dates/core/core.css">
     
@@ -2294,8 +2294,6 @@ var _hmt = _hmt || [];
 还要吐槽一下知识库文档的段落距离——跟行距相似度太高了，简直分辨不出来——看的好难受！空一行行距又太高——我好难 😭</p>
 <p>例如，存量的<strong>话题知识库</strong>，极好的一个知识库类型，可惜不能按照标题名称排序（相当简单的一个小功能，却一拖再拖，未能上线）；嵌入语雀内容在话题知识库知识库中也不如人意，最起码渲染速度就有点让人抓狂了；还有最坑的一点，话题知识库不能插入本地视频！</p>
 <p>例如，<strong>逛逛</strong>，能看的东西好像太少了，也不能刷新换一批；另外还有一个感觉（不知道是不是我的错觉），就是语雀对于前端、设计、以及一些方法论的东西尤其看重，逛逛/推荐里面很多这些方面的文档内容，其他方向的内容极少。</p>
-<script src="https://giscus.app/client.js" data-repo="shenweiyan/shenweiyan.github.io" data-repo-id="R_kgDOKgxWlg" data-mapping="number" data-term="128" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="light" data-lang="zh-CN" crossorigin="anonymous" async="">
-</script>
 
 
 
@@ -2323,6 +2321,70 @@ var _hmt = _hmt || [];
 
   
 
+
+
+
+  <!--h2 id="__comments">评论</h2-->
+  <style>
+  .divider {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin: 1.25rem 0 1rem;
+      font-family: 'Orbitron', monospace;
+      font-size: 80%;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+  }
+  .divider {
+    &::before, &::after {
+        content: '';
+        flex: 1;
+        height: 0.5px;
+        background: #2a2a2a;
+    }	
+  }
+  </style>
+  <div class="divider">
+    <p id="__comments">欢迎留言评论</p>
+  </div>
+  <script src="https://giscus.app/client.js" data-repo="shenweiyan/shenweiyan.github.io" data-repo-id="R_kgDOKgxWlg" data-mapping="number" data-term="128" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="preferred_color_scheme" data-lang="zh-CN" crossorigin="anonymous" async="">
+  </script>
+  <!-- Synchronize Giscus theme with palette -->
+  <script>
+    var giscus = document.querySelector("script[src*=giscus]")
+
+    // Set palette on initial load
+    var palette = __md_get("__palette")
+    if (palette && typeof palette.color === "object") {
+      var theme = palette.color.scheme === "slate"
+        ? "transparent_dark"
+        : "light"
+
+      // Instruct Giscus to set theme
+      giscus.setAttribute("data-theme", theme) 
+    }
+
+    // Register event handlers after documented loaded
+    document.addEventListener("DOMContentLoaded", function() {
+      var ref = document.querySelector("[data-md-component=palette]")
+      ref.addEventListener("change", function() {
+        var palette = __md_get("__palette")
+        if (palette && typeof palette.color === "object") {
+          var theme = palette.color.scheme === "slate"
+            ? "transparent_dark"
+            : "light"
+
+          // Instruct Giscus to change theme
+          var frame = document.querySelector(".giscus-frame")
+          frame.contentWindow.postMessage(
+            { giscus: { setConfig: { theme } } },
+            "https://giscus.app"
+          )
+        }
+      })
+    })
+  </script>
 
 
       

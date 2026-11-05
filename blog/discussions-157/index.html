@@ -71,15 +71,15 @@
     
       <link rel="stylesheet" href="../../assets/document_dates/tippy/shift-away.css">
     
-      <link rel="stylesheet" href="../../assets/document_dates/tippy/backdrop.css">
-    
       <link rel="stylesheet" href="../../assets/document_dates/tippy/tippy.css">
+    
+      <link rel="stylesheet" href="../../assets/document_dates/tippy/material.css">
+    
+      <link rel="stylesheet" href="../../assets/document_dates/tippy/backdrop.css">
     
       <link rel="stylesheet" href="../../assets/document_dates/tippy/scale.css">
     
       <link rel="stylesheet" href="../../assets/document_dates/tippy/light.css">
-    
-      <link rel="stylesheet" href="../../assets/document_dates/tippy/material.css">
     
       <link rel="stylesheet" href="../../assets/document_dates/core/core.css">
     
@@ -2334,8 +2334,6 @@ var _hmt = _hmt || [];
 <p>其次是七月初老母亲突如其来的生病，让原本按部就班的日子一下子变的紧凑起来。一方面担心老母亲的病情，另一方面为下班后的孩子接送学习事宜忙碌。</p>
 <p>7 月中老母亲病情加剧 —— 于是辗转几十公里的市人民医院疼痛科前前后后看了三次，终于有所缓解，后续还需多加修养。现如今的老家地处边远山区，只有镇上一个卫生站，虽然也还有不少私人诊所，医疗条件终归有限，市里有更好的三甲医院却又路途遥远，农村慢节奏的生活下医疗保障始终是一个挑战。</p>
 <p>现如今的大环境下，子女不能常伴身边，农村独居老人也成了一种常态。回想起我们的父辈，他们经历了从农村到城市到最终回归农村，经历了农村从曾经热闹安详到现如今的冷落凋零，他们吃过的苦也非我们 90 一代所能体会得到的。历史的大幕褪去，现在只剩下他们佝偻的身影，还在曾经熟悉的土地上坚守着。</p>
-<script src="https://giscus.app/client.js" data-repo="shenweiyan/shenweiyan.github.io" data-repo-id="R_kgDOKgxWlg" data-mapping="number" data-term="157" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="light" data-lang="zh-CN" crossorigin="anonymous" async="">
-</script>
 
 
 
@@ -2352,6 +2350,70 @@ var _hmt = _hmt || [];
 
   
 
+
+
+
+  
+  <style>
+  .divider {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin: 1.25rem 0 1rem;
+      font-family: 'Orbitron', monospace;
+      font-size: 80%;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+  }
+  .divider {
+    &::before, &::after {
+        content: '';
+        flex: 1;
+        height: 0.5px;
+        background: #2a2a2a;
+    }	
+  }
+  </style>
+  <div class="divider">
+    <p id="__comments">欢迎留言评论</p>
+  </div>
+  <script src="https://giscus.app/client.js" data-repo="shenweiyan/shenweiyan.github.io" data-repo-id="R_kgDOKgxWlg" data-mapping="number" data-term="157" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="preferred_color_scheme" data-lang="zh-CN" crossorigin="anonymous" async="">
+  </script>
+  <!-- Synchronize Giscus theme with palette -->
+  <script>
+    var giscus = document.querySelector("script[src*=giscus]")
+
+    // Set palette on initial load
+    var palette = __md_get("__palette")
+    if (palette && typeof palette.color === "object") {
+      var theme = palette.color.scheme === "slate"
+        ? "transparent_dark"
+        : "light"
+
+      // Instruct Giscus to set theme
+      giscus.setAttribute("data-theme", theme) 
+    }
+
+    // Register event handlers after documented loaded
+    document.addEventListener("DOMContentLoaded", function() {
+      var ref = document.querySelector("[data-md-component=palette]")
+      ref.addEventListener("change", function() {
+        var palette = __md_get("__palette")
+        if (palette && typeof palette.color === "object") {
+          var theme = palette.color.scheme === "slate"
+            ? "transparent_dark"
+            : "light"
+
+          // Instruct Giscus to change theme
+          var frame = document.querySelector(".giscus-frame")
+          frame.contentWindow.postMessage(
+            { giscus: { setConfig: { theme } } },
+            "https://giscus.app"
+          )
+        }
+      })
+    })
+  </script>
 
 
       
@@ -2554,4 +2616,4 @@ var _hmt = _hmt || [];
   
 <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
 document$.subscribe(()=>{ lightbox.reload(); });
-</script></body></html>
+</script></body></html><!--h2 id="__comments">评论</h2-->
