@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Thu, 05 Nov 2026 17:52:37 -0000</pubDate>
-    <lastBuildDate>Thu, 05 Nov 2026 17:52:37 -0000</lastBuildDate>
+    <pubDate>Fri, 06 Nov 2026 17:12:33 -0000</pubDate>
+    <lastBuildDate>Fri, 06 Nov 2026 17:12:33 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -103,11 +103,12 @@
 &lt;/ul&gt;
 &lt;p&gt;这个主题怎么用，怎么配置，&lt;a href=&#34;https://github.com/zeikar/repozine/blob/main/README.md&#34;&gt;README&lt;/a&gt; 写的非常清楚，按照步骤操作就行，非常简单。&lt;/p&gt;
 &lt;p&gt;本地安装与预览。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;ash
+&lt;p&gt;```bash
 git clone https://github.com/shenweiyan/repozine-demo.git
 cd repozine-demo
 npm install
-GITHUB_TOKEN=&amp;lt;GH_TOKEN&amp;gt; npm run dev -- --host&lt;/code&gt;&lt;/p&gt;
+GITHUB_TOKEN=&lt;GH_TOKEN&gt; npm run dev &amp;ndash; &amp;ndash;host
+````&lt;/p&gt;
 &lt;h2 id=&#34;体验感受&#34;&gt;体验感受&lt;a class=&#34;headerlink&#34; href=&#34;#体验感受&#34; title=&#34;Permanent link&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;这是一个非常轻量的主题，简单。&lt;/p&gt;
 &lt;p&gt;AI 在手，很多东西都可以自己 DIY，如果你喜欢在 Issues 或者 Discussions 上写博客，可以尝试一下。&lt;/p&gt;</description>
