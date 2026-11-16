@@ -2223,6 +2223,56 @@ article.md-content__inner.md-typeset {margin: 0 0 1.2rem 0; padding-top: 0rem;}
     <div class="md-post__meta md-meta">
       <ul class="md-meta__list">
         <li class="md-meta__item">
+          <time datetime="2026-11-16 00:00:00+00:00">2026年11月16日</time></li>
+        
+          <li class="md-meta__item">
+            分类于
+            
+              <a href="category/%E5%A5%BD%E7%8E%A9/" class="md-meta__link">好玩</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              需要 3 分钟阅读时间
+            
+          </li>
+        
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="materialx-接入-giscus-评论系统"><a class="toclink" href="discussions-201/">MaterialX 接入 Giscus 评论系统</a></h2>
+<p><a href="https://giscus.app/zh-CN">Giscus</a> 是一个基于 GitHub Discussions 的轻量级评论系统。它让你可以在静态网站（如博客、文档站）中嵌入评论区，而所有评论数据实际上都存储在你指定的 GitHub 仓库的讨论区里。</p>
+<p>这里记录一下个人的 MkDocs（基于 <a href="https://github.com/jaywhj/mkdocs-materialx">MaterialX</a> 主题）站点，在集成 giscus 评论的同时，并让它使用 <code>data-mapping="number"</code> 精确与指定的  Discussion 一一匹配对应。核心思路是：覆盖主题的 <code>comments.html</code> 模板，在页面 <code>front matter</code> 中为每篇文章手动指定一个 GitHub Discussion 编号，然后让 giscus 脚本动态读取这个编号作为 <code>data-term</code>。</p>
+
+    
+      <nav class="md-post__action">
+        <a href="discussions-201/">
+          继续阅读
+        </a>
+      </nav>
+    
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://gi.weiyan.tech/0000/logo/logo.webp" alt="Steven Shum">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
           <time datetime="2026-11-05 00:00:00+00:00">2026年11月5日</time></li>
         
           <li class="md-meta__item">
@@ -2656,60 +2706,6 @@ article.md-content__inner.md-typeset {margin: 0 0 1.2rem 0; padding-top: 0rem;}
   </div>
 </article>
       
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://gi.weiyan.tech/0000/logo/logo.webp" alt="Steven Shum">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2026-04-16 00:00:00+00:00">2026年4月16日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
-            
-              <a href="category/%E5%A5%BD%E7%8E%A9/" class="md-meta__link">好玩</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              需要 1 分钟阅读时间
-            
-          </li>
-        
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="纯数字的-xyz-域名"><a class="toclink" href="discussions-187/">纯数字的 xyz 域名</a></h2>
-<p>在逛 GitHub 的时候看到 wxh 的《<a href="https://wxhou.cn/Docs/50cny-10y-spaceship/">不到60人民币购入10年xyz域名</a>》这篇文章，文章提到在 <a href="https://www.spaceship.com/zh/">Spaceship</a> 可以通过不到 60 人民币购入一个 6-9 位的纯数字，后缀为 xyz 的域名。</p>
-<p>具体做法是：<strong>出现了 ¥4.57 的价格，可以直接买入，注意是先买一年，再续费 9 年，不能直接买 10 年。</strong></p>
-<div class="highlight"><pre><span></span><code><span class="m">4</span>.57<span class="w"> </span>+<span class="w"> </span><span class="m">5</span>.94*9<span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">58</span>.03
-</code></pre></div>
-<p>同样纯数字的 xyz 域名，发现在阿里云购买 10 年也不过 70 来块人民币。 </p>
-<p><img alt="aliyun-xyz-10-years" src="https://gi.weiyan.tech/2026/04/aliyun-xyz-10-years.png"></p>
-
-    
-      <nav class="md-post__action">
-        <a href="discussions-187/">
-          继续阅读
-        </a>
-      </nav>
-    
-    
-  </div>
-</article>
-      
 
 
     
@@ -2721,7 +2717,7 @@ article.md-content__inner.md-typeset {margin: 0 0 1.2rem 0; padding-top: 0rem;}
 
 
 <nav class="md-pagination">
-  <span class="md-pagination__current">1</span> <a class="md-pagination__link" href="page/2/">2</a> <a class="md-pagination__link" href="page/3/">3</a> <span class="md-pagination__dots">..</span> <a class="md-pagination__link" href="page/14/">14</a>
+  <span class="md-pagination__current">1</span> <a class="md-pagination__link" href="page/2/">2</a> <a class="md-pagination__link" href="page/3/">3</a> <span class="md-pagination__dots">..</span> <a class="md-pagination__link" href="page/15/">15</a>
 </nav>
     
 
